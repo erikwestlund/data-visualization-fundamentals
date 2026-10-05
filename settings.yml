@@ -1,5 +1,5 @@
 default:
-  project_name: October Presentation Week
+  project_name: Data Visualization Fundamentals
   project_type: presentation
   author:
     name: Erik Westlund
@@ -7,7 +7,7 @@ default:
     affiliation: Department of Biostatistics, Johns Hopkins Bloomberg School of Public
       Health
   directories:
-    presentation_source: 2026-10-05-characterization-visualization.qmd
+    presentation_source: 2026-10-07-fundamentals-data-visualization.qmd
     rendered_slides: '.'
   extra_directories: ~
   render_dirs: []
@@ -68,26 +68,6 @@ default:
       auto_attach: no
     - name: patchwork
       source: cran
-      auto_attach: no
-    - name: DatabaseConnector
-      source: cran
-      auto_attach: no
-    - name: Eunomia
-      source: cran
-      auto_attach: no
-    - name: CohortGenerator
-      source: cran
-      auto_attach: no
-    - name: FeatureExtraction
-      source: cran
-      auto_attach: no
-    - name: Characterization
-      source: github
-      repo: OHDSI/Characterization
-      auto_attach: no
-    - name: CohortIncidence
-      source: github
-      repo: OHDSI/CohortIncidence
       auto_attach: no
   git:
     enabled: yes

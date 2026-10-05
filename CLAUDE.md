@@ -1,4 +1,4 @@
-# October Presentation Week
+# Data Visualization Fundamentals
 
 Project instructions live in @AGENTS.md (the canonical AI context file) and in
 the skills under `.claude/skills/`. Read AGENTS.md before working here; do not
