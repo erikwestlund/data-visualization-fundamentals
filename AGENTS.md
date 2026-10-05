@@ -66,14 +66,23 @@ Add packages with `package_add("name")` or `package_add("name", auto_attach = TR
 
 This is a presentation project with minimal structure.
 
-### Main File
+### Decks
 
-Edit `presentation.qmd` for your slides.
+| Date | File | Talk |
+|------|------|------|
+| Mon 10/5 | `2026-10-05-characterization-visualization.qmd` | Data Characterization & Visualization (BIDS bootcamp, 90 min) |
+| Wed 10/7 | `2026-10-07-fundamentals-data-visualization.qmd` | Fundamentals of Data Visualization (seminar series, non-OHDSI, 60 min) |
+| Wed 10/7 | `2026-10-07-reach-ps-survival.qmd` | REACH and RStudio: PS and Survival Analysis (BIDS bootcamp, 90 min) |
+| Fri 10/9 | `2026-10-09-advanced-cohort-estimation.qmd` | Advanced Cohort Analysis: Estimation (BIDS bootcamp, 90 min) |
+
+Shared styling: `assets/jhu.scss` (revealjs) and `functions/theme_jhu.R` (ggplot).
+Code is shown, never run: `_quarto.yml` sets `eval: false`. Figures are made by
+scripts in `scripts/` that save PNGs to `images/<deck>/`. Example data is Eunomia.
 
 ### Rendering
 
 ```bash
-quarto render presentation.qmd
+quarto render 2026-10-05-characterization-visualization.qmd
 ```
 
 ### Creating Additional Presentations

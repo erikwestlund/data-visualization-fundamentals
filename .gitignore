@@ -126,3 +126,6 @@ ehthumbs.db
 *.bak
 *.swp
 *~
+
+/.quarto/
+**/*.quarto_ipynb

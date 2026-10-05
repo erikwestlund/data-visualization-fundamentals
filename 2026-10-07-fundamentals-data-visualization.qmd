@@ -1,0 +1,19 @@
+---
+title: "Fundamentals of Data Visualization"
+subtitle: "Workhorses, show ponies, and unicorns"
+author: "Erik Westlund"
+date: "2026-10-07"
+footer: "Fundamentals of Data Visualization"
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(framework)
+scaffold()
+```
+
+<!-- Outline to come. -->
+
+## Questions?

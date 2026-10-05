@@ -1,0 +1,21 @@
+covariate,domain,pct_celecoxib,pct_diclofenac,smd
+Female,Demographics,50.4,52.1,-0.034
+Age 30-34,Demographics,11.3,11.8,-0.013
+Age 35-39,Demographics,48,49.4,-0.028
+Age 40-44,Demographics,36.7,35.8,0.019
+Age 45-49,Demographics,4,3.1,0.052
+Polyp of colon,Condition,17.1,7.5,0.295
+Esophagitis,Condition,10,4.4,0.219
+Ulcerative colitis,Condition,3.1,1.1,0.143
+Angiodysplasia of stomach,Condition,0.5,0,0.099
+Acute viral pharyngitis,Condition,7.5,4.8,0.113
+Sinusitis,Condition,12.1,13.5,-0.043
+Acute bronchitis,Condition,4.8,4.8,0
+Otitis media,Condition,0.7,0.1,0.086
+Sprain of ankle,Condition,0.7,1.5,-0.078
+Acetaminophen,Drug,7.4,7.2,0.01
+Amoxicillin,Drug,2.4,2.9,-0.034
+Ibuprofen,Drug,1.1,1.8,-0.052
+Naproxen,Drug,1,0.9,0.009
+Aspirin,Drug,0.3,0.5,-0.033
+Clopidogrel,Drug,0.5,0.7,-0.021
