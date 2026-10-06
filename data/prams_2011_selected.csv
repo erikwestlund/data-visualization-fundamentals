@@ -1,0 +1,1223 @@
+location_abbr,location,subgroup_cat,subgroup,depression_within_3_months_birth,anxiety_within_3_months_birth,binge_drinking_within_3_months_birth,alcohol_use_within_3_months_birth
+AR,Arkansas,Adequacy of Prenatal care,ADEQUATE PNC,,,24.6,53.5
+AR,Arkansas,Adequacy of Prenatal care,INADEQUATE PNC,,,12.6,28.7
+AR,Arkansas,Adequacy of Prenatal care,INTERMEDIATE PNC,,,22.2,40.9
+AR,Arkansas,Adequacy of Prenatal care,UNKNOWN PNC,,,36,54.1
+AR,Arkansas,Birth Weight,LBW (<=2500g),,,21.5,45.8
+AR,Arkansas,Birth Weight,NBW (>2500g),,,24.1,49.9
+AR,Arkansas,Income (years 2004 and beyond),"$10,000 to $24,999",,,25.6,48.9
+AR,Arkansas,Income (years 2004 and beyond),"$25,000 to $49,999",,,21.3,47.8
+AR,Arkansas,Income (years 2004 and beyond),"$50,000 or more",,,24.7,60.5
+AR,Arkansas,Income (years 2004 and beyond),"Less than $10,000",,,22.9,43.6
+AR,Arkansas,Marital Status,MARRIED,,,20.2,51.4
+AR,Arkansas,Marital Status,OTHER,,,28.5,47.2
+AR,Arkansas,Maternal Age (3 Levels),20-29 yrs,,,25.5,51.2
+AR,Arkansas,Maternal Age (3 Levels),30+ yrs,,,23.2,50
+AR,Arkansas,Maternal Age (3 Levels),<20 yrs,,,17.2,41.3
+AR,Arkansas,Maternal Age (4 Levels),20-24 yrs,,,27.8,48.6
+AR,Arkansas,Maternal Age (4 Levels),25-34 yrs,,,24.4,52.5
+AR,Arkansas,Maternal Age (4 Levels),35+ yrs,,,15.6,48.7
+AR,Arkansas,Maternal Age (4 Levels),<20 yrs,,,17.2,41.3
+AR,Arkansas,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,25.7,48.6
+AR,Arkansas,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,24.1,54.3
+AR,Arkansas,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,21.8,48.3
+AR,Arkansas,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+AR,Arkansas,Maternal Age - 18 to 44 years in groupings,Age < 18,,,13.5,22.6
+AR,Arkansas,Maternal Age - 18 to 44 years only,Age 18 - 44,,,24.3,50.6
+AR,Arkansas,Maternal Education,12 yrs,,,25.4,52
+AR,Arkansas,Maternal Education,< 12 yrs,,,14.8,26
+AR,Arkansas,Maternal Education,>12 yrs,,,26.3,57.1
+AR,Arkansas,Maternal Race/Ethnicity,"Black, non-Hispanic",,,19.6,45.1
+AR,Arkansas,Maternal Race/Ethnicity,Hispanic,,,14.2,29.5
+AR,Arkansas,Maternal Race/Ethnicity,Other non-Hispanic,,,,
+AR,Arkansas,Maternal Race/Ethnicity,"White, non-Hispanic",,,26.4,53.1
+AR,Arkansas,Medicaid Recipient,Medicaid,,,24.4,46.4
+AR,Arkansas,Medicaid Recipient,Non-Medicaid,,,22.9,55.4
+AR,Arkansas,Mother Hispanic,Hispanic,,,14.2,29.5
+AR,Arkansas,Mother Hispanic,Non-Hispanic,,,24.8,51.5
+AR,Arkansas,None,None,,,23.9,49.6
+AR,Arkansas,Number of Previous Live Births,0,,,27.6,51.7
+AR,Arkansas,Number of Previous Live Births,1 or more,,,21.4,48.4
+AR,Arkansas,On WIC during Pregnancy,Non-WIC,,,26.2,57.1
+AR,Arkansas,On WIC during Pregnancy,WIC,,,22.1,44.8
+AR,Arkansas,Pregnancy Intendedness,Intended,,,17.1,47.6
+AR,Arkansas,Pregnancy Intendedness,Unintended,,,31.5,52.5
+AR,Arkansas,Smoked 3 months before Pregnancy,Non-Smoker,,,15.9,43.2
+AR,Arkansas,Smoked 3 months before Pregnancy,Smoker,,,38.8,61.8
+AR,Arkansas,Smoked last 3 months of Pregnancy,Non-Smoker,,,21.4,48.3
+AR,Arkansas,Smoked last 3 months of Pregnancy,Smoker,,,34.2,55.2
+CO,Colorado,Adequacy of Prenatal care,ADEQUATE PNC,,,29.7,62.7
+CO,Colorado,Adequacy of Prenatal care,INADEQUATE PNC,,,16.3,44.2
+CO,Colorado,Adequacy of Prenatal care,INTERMEDIATE PNC,,,23.3,59
+CO,Colorado,Adequacy of Prenatal care,UNKNOWN PNC,,,21.7,53.1
+CO,Colorado,Birth Weight,LBW (<=2500g),,,21.6,56.5
+CO,Colorado,Birth Weight,NBW (>2500g),,,27.1,60.2
+CO,Colorado,Income (years 2004 and beyond),"$10,000 to $24,999",,,18.6,49.3
+CO,Colorado,Income (years 2004 and beyond),"$25,000 to $49,999",,,28.8,64.4
+CO,Colorado,Income (years 2004 and beyond),"$50,000 or more",,,33.3,76.4
+CO,Colorado,Income (years 2004 and beyond),"Less than $10,000",,,21.1,37
+CO,Colorado,Marital Status,MARRIED,,,26,61.4
+CO,Colorado,Marital Status,OTHER,,,28.8,55.6
+CO,Colorado,Maternal Age (3 Levels),20-29 yrs,,,29.1,59.8
+CO,Colorado,Maternal Age (3 Levels),30+ yrs,,,25.5,65
+CO,Colorado,Maternal Age (3 Levels),<20 yrs,,,19.1,33.6
+CO,Colorado,Maternal Age (4 Levels),20-24 yrs,,,27.8,54.5
+CO,Colorado,Maternal Age (4 Levels),25-34 yrs,,,28.9,63.3
+CO,Colorado,Maternal Age (4 Levels),35+ yrs,,,21.9,67.6
+CO,Colorado,Maternal Age (4 Levels),<20 yrs,,,19.1,33.6
+CO,Colorado,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,25.6,49.7
+CO,Colorado,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,30.1,62.9
+CO,Colorado,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,24.8,66.2
+CO,Colorado,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+CO,Colorado,Maternal Age - 18 to 44 years in groupings,Age < 18,,,19.1,25.8
+CO,Colorado,Maternal Age - 18 to 44 years only,Age 18 - 44,,,27,60.7
+CO,Colorado,Maternal Education,12 yrs,,,24.2,55.1
+CO,Colorado,Maternal Education,< 12 yrs,,,13.8,27.3
+CO,Colorado,Maternal Education,>12 yrs,,,31.1,70.7
+CO,Colorado,Maternal Race/Ethnicity,"Black, non-Hispanic",,,11.1,48.4
+CO,Colorado,Maternal Race/Ethnicity,Hispanic,,,16.6,39.8
+CO,Colorado,Maternal Race/Ethnicity,Other non-Hispanic,,,24.9,50.2
+CO,Colorado,Maternal Race/Ethnicity,"White, non-Hispanic",,,32,70.4
+CO,Colorado,Medicaid Recipient,Medicaid,,,19.9,43.2
+CO,Colorado,Medicaid Recipient,Non-Medicaid,,,31.1,70.8
+CO,Colorado,Mother Hispanic,Hispanic,,,16.6,39.8
+CO,Colorado,Mother Hispanic,Non-Hispanic,,,30.9,68
+CO,Colorado,None,None,,,26.7,59.9
+CO,Colorado,Number of Previous Live Births,0,,,37.1,68.9
+CO,Colorado,Number of Previous Live Births,1 or more,,,19.4,53.6
+CO,Colorado,On WIC during Pregnancy,Non-WIC,,,30.1,69.9
+CO,Colorado,On WIC during Pregnancy,WIC,,,21.1,42.9
+CO,Colorado,Pregnancy Intendedness,Intended,,,26,63.3
+CO,Colorado,Pregnancy Intendedness,Unintended,,,28.1,54.6
+CO,Colorado,Smoked 3 months before Pregnancy,Non-Smoker,,,22,56.7
+CO,Colorado,Smoked 3 months before Pregnancy,Smoker,,,42.2,70.6
+CO,Colorado,Smoked last 3 months of Pregnancy,Non-Smoker,,,26.5,60.6
+CO,Colorado,Smoked last 3 months of Pregnancy,Smoker,,,28.9,51.8
+DE,Delaware,Adequacy of Prenatal care,ADEQUATE PNC,10.3,14.6,25.3,60.3
+DE,Delaware,Adequacy of Prenatal care,INADEQUATE PNC,19.4,18.2,12.5,35
+DE,Delaware,Adequacy of Prenatal care,INTERMEDIATE PNC,12.2,10.7,20.1,45.7
+DE,Delaware,Adequacy of Prenatal care,UNKNOWN PNC,16.6,17.7,20.4,40
+DE,Delaware,Birth Weight,LBW (<=2500g),16.6,18.7,26.5,58.9
+DE,Delaware,Birth Weight,NBW (>2500g),11.1,13.9,22.9,54.6
+DE,Delaware,Income (years 2004 and beyond),"$10,000 to $24,999",14.1,14.2,22.8,50.1
+DE,Delaware,Income (years 2004 and beyond),"$25,000 to $49,999",6.5,9.7,21,54.7
+DE,Delaware,Income (years 2004 and beyond),"$50,000 or more",7.1,15.4,27.6,70.7
+DE,Delaware,Income (years 2004 and beyond),"Less than $10,000",21.1,17.3,20.8,39.7
+DE,Delaware,Marital Status,MARRIED,7,12.9,22.5,60
+DE,Delaware,Marital Status,OTHER,16.3,15.8,23.9,49.7
+DE,Delaware,Maternal Age (3 Levels),20-29 yrs,13.8,15.6,25.8,57
+DE,Delaware,Maternal Age (3 Levels),30+ yrs,8.7,14.5,21.7,57.8
+DE,Delaware,Maternal Age (3 Levels),<20 yrs,11.8,5.8,15.1,28.9
+DE,Delaware,Maternal Age (4 Levels),20-24 yrs,16.2,15.4,26,54.9
+DE,Delaware,Maternal Age (4 Levels),25-34 yrs,10.4,15.5,24.1,58.5
+DE,Delaware,Maternal Age (4 Levels),35+ yrs,7.9,12.8,20.2,57.1
+DE,Delaware,Maternal Age (4 Levels),<20 yrs,11.8,5.8,15.1,28.9
+DE,Delaware,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,15.4,14,24.9,51.3
+DE,Delaware,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,11.1,15.8,25,59.5
+DE,Delaware,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,8.7,14.2,21.2,56.7
+DE,Delaware,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+DE,Delaware,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+DE,Delaware,Maternal Age - 18 to 44 years only,Age 18 - 44,11.5,14.7,23.7,56
+DE,Delaware,Maternal Education,12 yrs,15.2,16.7,26.2,55.8
+DE,Delaware,Maternal Education,< 12 yrs,17.8,13.6,12.7,27.7
+DE,Delaware,Maternal Education,>12 yrs,7.5,13.5,25.9,65.3
+DE,Delaware,Maternal Race/Ethnicity,"Black, non-Hispanic",9.3,6,18.6,42.7
+DE,Delaware,Maternal Race/Ethnicity,Hispanic,13.8,6.6,5.5,27.6
+DE,Delaware,Maternal Race/Ethnicity,Other non-Hispanic,4.8,6.9,10.9,28.3
+DE,Delaware,Maternal Race/Ethnicity,"White, non-Hispanic",12.9,20.4,29.7,68.5
+DE,Delaware,Medicaid Recipient,Medicaid,14.7,14.3,21.8,46.9
+DE,Delaware,Medicaid Recipient,Non-Medicaid,8.1,14.4,24.7,63.5
+DE,Delaware,Mother Hispanic,Hispanic,13.8,6.6,5.5,27.6
+DE,Delaware,Mother Hispanic,Non-Hispanic,11.2,15.1,25.4,58.1
+DE,Delaware,None,None,11.5,14.3,23.2,54.9
+DE,Delaware,Number of Previous Live Births,0,9.5,13.7,29.5,60.2
+DE,Delaware,Number of Previous Live Births,1 or more,12.9,14.7,18.9,51.4
+DE,Delaware,On WIC during Pregnancy,Non-WIC,7.8,15.8,26.7,66.3
+DE,Delaware,On WIC during Pregnancy,WIC,15.3,12.8,19.3,42.5
+DE,Delaware,Pregnancy Intendedness,Intended,8.2,13.5,22.1,57.9
+DE,Delaware,Pregnancy Intendedness,Unintended,15,15,24.6,51.2
+DE,Delaware,Smoked 3 months before Pregnancy,Non-Smoker,7.3,9.5,17.3,49.2
+DE,Delaware,Smoked 3 months before Pregnancy,Smoker,23.1,27.2,39.2,70.4
+DE,Delaware,Smoked last 3 months of Pregnancy,Non-Smoker,8.5,10.7,21.9,54
+DE,Delaware,Smoked last 3 months of Pregnancy,Smoker,30.8,36.9,31,60.3
+GA,Georgia,Adequacy of Prenatal care,ADEQUATE PNC,,,12.8,34.3
+GA,Georgia,Adequacy of Prenatal care,INADEQUATE PNC,,,7.4,21.4
+GA,Georgia,Adequacy of Prenatal care,INTERMEDIATE PNC,,,15,35.7
+GA,Georgia,Adequacy of Prenatal care,UNKNOWN PNC,,,12,35.6
+GA,Georgia,Birth Weight,LBW (<=2500g),,,10.7,30.5
+GA,Georgia,Birth Weight,NBW (>2500g),,,12.8,34.4
+GA,Georgia,Income (years 2004 and beyond),"$10,000 to $24,999",,,12.6,34.2
+GA,Georgia,Income (years 2004 and beyond),"$25,000 to $49,999",,,13.3,40.8
+GA,Georgia,Income (years 2004 and beyond),"$50,000 or more",,,19.6,55.9
+GA,Georgia,Income (years 2004 and beyond),"Less than $10,000",,,13.1,26.2
+GA,Georgia,Marital Status,MARRIED,,,14.3,40.2
+GA,Georgia,Marital Status,OTHER,,,10.6,26.1
+GA,Georgia,Maternal Age (3 Levels),20-29 yrs,,,14.5,33.3
+GA,Georgia,Maternal Age (3 Levels),30+ yrs,,,11.5,40.5
+GA,Georgia,Maternal Age (3 Levels),<20 yrs,,,5.9,16.2
+GA,Georgia,Maternal Age (4 Levels),20-24 yrs,,,14.5,30.8
+GA,Georgia,Maternal Age (4 Levels),25-34 yrs,,,12.4,35.7
+GA,Georgia,Maternal Age (4 Levels),35+ yrs,,,15.1,48.6
+GA,Georgia,Maternal Age (4 Levels),<20 yrs,,,5.9,16.2
+GA,Georgia,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,12.9,28.4
+GA,Georgia,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,14.5,35
+GA,Georgia,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,11.2,41.6
+GA,Georgia,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+GA,Georgia,Maternal Age - 18 to 44 years in groupings,Age < 18,,,3.8,8.4
+GA,Georgia,Maternal Age - 18 to 44 years only,Age 18 - 44,,,12.9,34.9
+GA,Georgia,Maternal Education,12 yrs,,,10.6,31.2
+GA,Georgia,Maternal Education,< 12 yrs,,,3.6,8.2
+GA,Georgia,Maternal Education,>12 yrs,,,17.2,44.4
+GA,Georgia,Maternal Race/Ethnicity,"Black, non-Hispanic",,,8.9,25.7
+GA,Georgia,Maternal Race/Ethnicity,Hispanic,,,4.8,9.3
+GA,Georgia,Maternal Race/Ethnicity,Other non-Hispanic,,,7.7,25.6
+GA,Georgia,Maternal Race/Ethnicity,"White, non-Hispanic",,,17.7,46.4
+GA,Georgia,Medicaid Recipient,Medicaid,,,9.5,26.2
+GA,Georgia,Medicaid Recipient,Non-Medicaid,,,17.6,46.6
+GA,Georgia,Mother Hispanic,Hispanic,,,4.8,9.3
+GA,Georgia,Mother Hispanic,Non-Hispanic,,,14,37.8
+GA,Georgia,None,None,,,12.6,34.1
+GA,Georgia,Number of Previous Live Births,0,,,17.2,36.2
+GA,Georgia,Number of Previous Live Births,1 or more,,,9.4,32.2
+GA,Georgia,On WIC during Pregnancy,Non-WIC,,,17.4,44.5
+GA,Georgia,On WIC during Pregnancy,WIC,,,9.1,26
+GA,Georgia,Pregnancy Intendedness,Intended,,,17.3,45.4
+GA,Georgia,Pregnancy Intendedness,Unintended,,,8.7,24.7
+GA,Georgia,Smoked 3 months before Pregnancy,Non-Smoker,,,8.1,29.1
+GA,Georgia,Smoked 3 months before Pregnancy,Smoker,,,36.4,60.9
+GA,Georgia,Smoked last 3 months of Pregnancy,Non-Smoker,,,12.1,33.6
+GA,Georgia,Smoked last 3 months of Pregnancy,Smoker,,,20,42.6
+HI,Hawaii,Adequacy of Prenatal care,ADEQUATE PNC,4.5,6.6,25.1,56.8
+HI,Hawaii,Adequacy of Prenatal care,INADEQUATE PNC,1.7,1,25.8,45.1
+HI,Hawaii,Adequacy of Prenatal care,INTERMEDIATE PNC,3.2,3.5,19.7,39.4
+HI,Hawaii,Adequacy of Prenatal care,UNKNOWN PNC,5.5,3.5,22,57.3
+HI,Hawaii,Birth Weight,LBW (<=2500g),5.7,5.7,25.7,52.3
+HI,Hawaii,Birth Weight,NBW (>2500g),4.1,5.6,23.8,53.2
+HI,Hawaii,Income (years 2004 and beyond),"$10,000 to $24,999",6,6,31.3,48.9
+HI,Hawaii,Income (years 2004 and beyond),"$25,000 to $49,999",3.5,5.8,23.1,58.1
+HI,Hawaii,Income (years 2004 and beyond),"$50,000 or more",3.6,6,20.8,59.6
+HI,Hawaii,Income (years 2004 and beyond),"Less than $10,000",5.2,4.2,25.6,44.4
+HI,Hawaii,Marital Status,MARRIED,3.5,6.4,18.8,50.6
+HI,Hawaii,Marital Status,OTHER,5.3,4.4,32.4,57.2
+HI,Hawaii,Maternal Age (3 Levels),20-29 yrs,5.3,6.5,29.8,57.1
+HI,Hawaii,Maternal Age (3 Levels),30+ yrs,2.9,5.2,18.8,52.9
+HI,Hawaii,Maternal Age (3 Levels),<20 yrs,4.7,2.1,13.9,19.6
+HI,Hawaii,Maternal Age (4 Levels),20-24 yrs,4.6,7.2,30.6,57.6
+HI,Hawaii,Maternal Age (4 Levels),25-34 yrs,4.6,5.4,25.9,55.8
+HI,Hawaii,Maternal Age (4 Levels),35+ yrs,2.1,5.6,12,49.5
+HI,Hawaii,Maternal Age (4 Levels),<20 yrs,4.7,2.1,13.9,19.6
+HI,Hawaii,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,4.2,6.2,28.7,52.9
+HI,Hawaii,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,5.4,6.5,27.4,55.9
+HI,Hawaii,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,2.8,4.5,18.3,52.6
+HI,Hawaii,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+HI,Hawaii,Maternal Age - 18 to 44 years in groupings,Age < 18,9.8,5.8,8.8,13.6
+HI,Hawaii,Maternal Age - 18 to 44 years only,Age 18 - 44,4.1,5.7,24.3,53.8
+HI,Hawaii,Maternal Education,12 yrs,3.7,5.6,25.1,51.2
+HI,Hawaii,Maternal Education,< 12 yrs,3.6,4.4,20.5,36.4
+HI,Hawaii,Maternal Education,>12 yrs,4.6,5.9,23.5,56.4
+HI,Hawaii,Maternal Race/Ethnicity,"Black, non-Hispanic",,,,
+HI,Hawaii,Maternal Race/Ethnicity,Hispanic,3.7,5.6,24.8,52.7
+HI,Hawaii,Maternal Race/Ethnicity,Other non-Hispanic,3.9,4.3,22,46.9
+HI,Hawaii,Maternal Race/Ethnicity,"White, non-Hispanic",5.9,10.4,27.9,72.8
+HI,Hawaii,Medicaid Recipient,Medicaid,5.6,6.1,27.3,48.6
+HI,Hawaii,Medicaid Recipient,Non-Medicaid,3.3,5.4,21.9,55.9
+HI,Hawaii,Mother Hispanic,Hispanic,3.7,5.6,24.8,52.7
+HI,Hawaii,Mother Hispanic,Non-Hispanic,4.3,5.7,23.8,53.2
+HI,Hawaii,None,None,4.2,5.6,24,53.1
+HI,Hawaii,Number of Previous Live Births,0,3.7,5.3,30.8,62.2
+HI,Hawaii,Number of Previous Live Births,1 or more,4.5,5.9,19.5,47.1
+HI,Hawaii,On WIC during Pregnancy,Non-WIC,3.4,5.6,21.3,57.3
+HI,Hawaii,On WIC during Pregnancy,WIC,5.2,5.7,27.1,48.1
+HI,Hawaii,Pregnancy Intendedness,Intended,3.3,5.9,20.4,55
+HI,Hawaii,Pregnancy Intendedness,Unintended,5.2,5.4,28.5,51.4
+HI,Hawaii,Smoked 3 months before Pregnancy,Non-Smoker,2.8,4.9,19.6,48.1
+HI,Hawaii,Smoked 3 months before Pregnancy,Smoker,9.8,9,41.7,74
+HI,Hawaii,Smoked last 3 months of Pregnancy,Non-Smoker,3.9,5.4,23.6,53.1
+HI,Hawaii,Smoked last 3 months of Pregnancy,Smoker,8.8,10.9,29.6,52.4
+MA,Massachusetts,Adequacy of Prenatal care,ADEQUATE PNC,,,25.9,66.4
+MA,Massachusetts,Adequacy of Prenatal care,INADEQUATE PNC,,,24,64.5
+MA,Massachusetts,Adequacy of Prenatal care,INTERMEDIATE PNC,,,16.9,41.1
+MA,Massachusetts,Adequacy of Prenatal care,UNKNOWN PNC,,,22.7,53
+MA,Massachusetts,Birth Weight,LBW (<=2500g),,,30.7,57.7
+MA,Massachusetts,Birth Weight,NBW (>2500g),,,24.5,62.5
+MA,Massachusetts,Income (years 2004 and beyond),"$10,000 to $24,999",,,20.3,48.1
+MA,Massachusetts,Income (years 2004 and beyond),"$25,000 to $49,999",,,22.9,62.7
+MA,Massachusetts,Income (years 2004 and beyond),"$50,000 or more",,,30.8,79.3
+MA,Massachusetts,Income (years 2004 and beyond),"Less than $10,000",,,20.4,36.7
+MA,Massachusetts,Marital Status,MARRIED,,,24.3,66.7
+MA,Massachusetts,Marital Status,OTHER,,,24.9,53.7
+MA,Massachusetts,Maternal Age (3 Levels),20-29 yrs,,,26.2,55.8
+MA,Massachusetts,Maternal Age (3 Levels),30+ yrs,,,23.8,68.4
+MA,Massachusetts,Maternal Age (3 Levels),<20 yrs,,,17.9,45.1
+MA,Massachusetts,Maternal Age (4 Levels),20-24 yrs,,,28.4,57.5
+MA,Massachusetts,Maternal Age (4 Levels),25-34 yrs,,,26.4,64.9
+MA,Massachusetts,Maternal Age (4 Levels),35+ yrs,,,17.8,62.1
+MA,Massachusetts,Maternal Age (4 Levels),<20 yrs,,,17.9,45.1
+MA,Massachusetts,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,27,54.7
+MA,Massachusetts,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,25.9,58.7
+MA,Massachusetts,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,23.1,68.1
+MA,Massachusetts,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+MA,Massachusetts,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+MA,Massachusetts,Maternal Age - 18 to 44 years only,Age 18 - 44,,,24.8,62.4
+MA,Massachusetts,Maternal Education,12 yrs,,,19.1,48.9
+MA,Massachusetts,Maternal Education,< 12 yrs,,,13.2,31.6
+MA,Massachusetts,Maternal Education,>12 yrs,,,28.6,71.8
+MA,Massachusetts,Maternal Race/Ethnicity,"Black, non-Hispanic",,,11.2,39.8
+MA,Massachusetts,Maternal Race/Ethnicity,Hispanic,,,15,34.4
+MA,Massachusetts,Maternal Race/Ethnicity,Other non-Hispanic,,,9.8,40.7
+MA,Massachusetts,Maternal Race/Ethnicity,"White, non-Hispanic",,,31.8,76.9
+MA,Massachusetts,Medicaid Recipient,Medicaid,,,18.8,42.8
+MA,Massachusetts,Medicaid Recipient,Non-Medicaid,,,28.6,76.4
+MA,Massachusetts,Mother Hispanic,Hispanic,,,15,34.4
+MA,Massachusetts,Mother Hispanic,Non-Hispanic,,,26.5,68.1
+MA,Massachusetts,None,None,,,24.5,62.2
+MA,Massachusetts,Number of Previous Live Births,0,,,30.3,67.5
+MA,Massachusetts,Number of Previous Live Births,1 or more,,,20.2,57.8
+MA,Massachusetts,On WIC during Pregnancy,Non-WIC,,,28.7,75.5
+MA,Massachusetts,On WIC during Pregnancy,WIC,,,18.3,43.9
+MA,Massachusetts,Pregnancy Intendedness,Intended,,,22.7,64.3
+MA,Massachusetts,Pregnancy Intendedness,Unintended,,,28,58.7
+MA,Massachusetts,Smoked 3 months before Pregnancy,Non-Smoker,,,20,59.3
+MA,Massachusetts,Smoked 3 months before Pregnancy,Smoker,,,42.6,74.5
+MA,Massachusetts,Smoked last 3 months of Pregnancy,Non-Smoker,,,23.8,61.9
+MA,Massachusetts,Smoked last 3 months of Pregnancy,Smoker,,,32.4,67
+MD,Maryland,Adequacy of Prenatal care,ADEQUATE PNC,9.2,11,21.5,61.7
+MD,Maryland,Adequacy of Prenatal care,INADEQUATE PNC,8.3,10.6,19,45.8
+MD,Maryland,Adequacy of Prenatal care,INTERMEDIATE PNC,17,14.7,26.7,50.7
+MD,Maryland,Adequacy of Prenatal care,UNKNOWN PNC,15.9,8.8,17.5,46.4
+MD,Maryland,Birth Weight,LBW (<=2500g),13.5,14.1,17.5,48.7
+MD,Maryland,Birth Weight,NBW (>2500g),11.3,11.4,22.5,57.2
+MD,Maryland,Income (years 2004 and beyond),"$10,000 to $24,999",12.1,10.6,17.6,41.1
+MD,Maryland,Income (years 2004 and beyond),"$25,000 to $49,999",6.8,10.8,19.4,56.3
+MD,Maryland,Income (years 2004 and beyond),"$50,000 or more",6.9,12.3,26.4,75.4
+MD,Maryland,Income (years 2004 and beyond),"Less than $10,000",27.4,11.6,21,32.7
+MD,Maryland,Marital Status,MARRIED,7.7,11.9,21.1,63.5
+MD,Maryland,Marital Status,OTHER,16.9,11.1,23.4,46.3
+MD,Maryland,Maternal Age (3 Levels),20-29 yrs,10.9,14,26.7,57.4
+MD,Maryland,Maternal Age (3 Levels),30+ yrs,11.4,9.5,18.3,60.3
+MD,Maryland,Maternal Age (3 Levels),<20 yrs,15.9,9.4,16.2,25.6
+MD,Maryland,Maternal Age (4 Levels),20-24 yrs,14.4,16.4,32,51.7
+MD,Maryland,Maternal Age (4 Levels),25-34 yrs,11,11.1,22.2,62.7
+MD,Maryland,Maternal Age (4 Levels),35+ yrs,8.2,9.4,14.3,52.8
+MD,Maryland,Maternal Age (4 Levels),<20 yrs,15.9,9.4,16.2,25.6
+MD,Maryland,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,15.7,15.2,29.4,46.2
+MD,Maryland,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,8.8,11.9,22.8,61.9
+MD,Maryland,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,11.8,9.7,18.4,59
+MD,Maryland,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+MD,Maryland,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+MD,Maryland,Maternal Age - 18 to 44 years only,Age 18 - 44,11.6,11.7,22.5,57.2
+MD,Maryland,Maternal Education,12 yrs,12.4,9.6,18.2,42.8
+MD,Maryland,Maternal Education,< 12 yrs,23.6,11.6,19.1,23.1
+MD,Maryland,Maternal Education,>12 yrs,8.7,12.2,23.9,68
+MD,Maryland,Maternal Race/Ethnicity,"Black, non-Hispanic",7.9,4.7,13.7,47
+MD,Maryland,Maternal Race/Ethnicity,Hispanic,9.4,4.7,10.8,32.1
+MD,Maryland,Maternal Race/Ethnicity,Other non-Hispanic,4,4.1,16.7,41.7
+MD,Maryland,Maternal Race/Ethnicity,"White, non-Hispanic",15.7,19.5,32,73.2
+MD,Maryland,Medicaid Recipient,Medicaid,15.2,10.7,19,42.5
+MD,Maryland,Medicaid Recipient,Non-Medicaid,9.2,12.1,23.9,65.1
+MD,Maryland,Mother Hispanic,Hispanic,9.4,4.7,10.8,32.1
+MD,Maryland,Mother Hispanic,Non-Hispanic,11.8,12.8,24.1,61.1
+MD,Maryland,None,None,11.4,11.6,22.1,56.5
+MD,Maryland,Number of Previous Live Births,0,10.9,12.5,32.3,63.7
+MD,Maryland,Number of Previous Live Births,1 or more,11.6,10.9,15.3,52
+MD,Maryland,On WIC during Pregnancy,Non-WIC,7,12.6,25.5,70.9
+MD,Maryland,On WIC during Pregnancy,WIC,16.7,9.8,18,38.6
+MD,Maryland,Pregnancy Intendedness,Intended,8,12.4,18.8,59.6
+MD,Maryland,Pregnancy Intendedness,Unintended,15.3,10.5,26.3,53.3
+MD,Maryland,Smoked 3 months before Pregnancy,Non-Smoker,7.1,8.5,15.2,52.3
+MD,Maryland,Smoked 3 months before Pregnancy,Smoker,26.9,21.7,50.6,74.2
+MD,Maryland,Smoked last 3 months of Pregnancy,Non-Smoker,8.9,10.1,20.8,56.1
+MD,Maryland,Smoked last 3 months of Pregnancy,Smoker,42.5,28.3,38.9,64.9
+ME,Maine,Adequacy of Prenatal care,ADEQUATE PNC,,,28.8,67.1
+ME,Maine,Adequacy of Prenatal care,INADEQUATE PNC,,,,
+ME,Maine,Adequacy of Prenatal care,INTERMEDIATE PNC,,,13.1,55.6
+ME,Maine,Adequacy of Prenatal care,UNKNOWN PNC,,,,
+ME,Maine,Birth Weight,LBW (<=2500g),,,27.6,60.7
+ME,Maine,Birth Weight,NBW (>2500g),,,26.8,65.5
+ME,Maine,Income (years 2004 and beyond),"$10,000 to $24,999",,,32.1,62.6
+ME,Maine,Income (years 2004 and beyond),"$25,000 to $49,999",,,25.7,70
+ME,Maine,Income (years 2004 and beyond),"$50,000 or more",,,28.3,77.9
+ME,Maine,Income (years 2004 and beyond),"Less than $10,000",,,28.7,51.9
+ME,Maine,Marital Status,MARRIED,,,21.6,67.2
+ME,Maine,Marital Status,OTHER,,,34.4,62.3
+ME,Maine,Maternal Age (3 Levels),20-29 yrs,,,29.8,66.3
+ME,Maine,Maternal Age (3 Levels),30+ yrs,,,24.4,71.1
+ME,Maine,Maternal Age (3 Levels),<20 yrs,,,15.9,25.9
+ME,Maine,Maternal Age (4 Levels),20-24 yrs,,,33,64.7
+ME,Maine,Maternal Age (4 Levels),25-34 yrs,,,27.6,70.4
+ME,Maine,Maternal Age (4 Levels),35+ yrs,,,18.7,64.7
+ME,Maine,Maternal Age (4 Levels),<20 yrs,,,15.9,25.9
+ME,Maine,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,30.7,58.4
+ME,Maine,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,29.1,67.3
+ME,Maine,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,22.3,72.5
+ME,Maine,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+ME,Maine,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+ME,Maine,Maternal Age - 18 to 44 years only,Age 18 - 44,,,27.4,66.4
+ME,Maine,Maternal Education,12 yrs,,,27.7,60.8
+ME,Maine,Maternal Education,< 12 yrs,,,14.1,39
+ME,Maine,Maternal Education,>12 yrs,,,28.9,72.4
+ME,Maine,Maternal Race/Ethnicity,"Black, non-Hispanic",,,,
+ME,Maine,Maternal Race/Ethnicity,Hispanic,,,,
+ME,Maine,Maternal Race/Ethnicity,Other non-Hispanic,,,5.1,33.2
+ME,Maine,Maternal Race/Ethnicity,"White, non-Hispanic",,,28.4,67.3
+ME,Maine,Medicaid Recipient,Medicaid,,,27.4,57.6
+ME,Maine,Medicaid Recipient,Non-Medicaid,,,26.1,74.3
+ME,Maine,Mother Hispanic,Hispanic,,,,
+ME,Maine,Mother Hispanic,Non-Hispanic,,,27.1,65.2
+ME,Maine,None,None,,,26.8,65.2
+ME,Maine,Number of Previous Live Births,0,,,32.6,67
+ME,Maine,Number of Previous Live Births,1 or more,,,21.9,63.7
+ME,Maine,On WIC during Pregnancy,Non-WIC,,,27.2,72.9
+ME,Maine,On WIC during Pregnancy,WIC,,,26.6,54.8
+ME,Maine,Pregnancy Intendedness,Intended,,,22.1,65.9
+ME,Maine,Pregnancy Intendedness,Unintended,,,36.4,64.7
+ME,Maine,Smoked 3 months before Pregnancy,Non-Smoker,,,21,63.8
+ME,Maine,Smoked 3 months before Pregnancy,Smoker,,,38.9,69.5
+ME,Maine,Smoked last 3 months of Pregnancy,Non-Smoker,,,26.8,67
+ME,Maine,Smoked last 3 months of Pregnancy,Smoker,,,28.1,58.7
+MI,Michigan,Adequacy of Prenatal care,ADEQUATE PNC,13.2,13.6,29.3,66.5
+MI,Michigan,Adequacy of Prenatal care,INADEQUATE PNC,22.7,29.4,26.1,42
+MI,Michigan,Adequacy of Prenatal care,INTERMEDIATE PNC,19.2,18.2,29.7,57.6
+MI,Michigan,Adequacy of Prenatal care,UNKNOWN PNC,12.3,19,25.1,62.7
+MI,Michigan,Birth Weight,LBW (<=2500g),15,14,23.6,55.2
+MI,Michigan,Birth Weight,NBW (>2500g),14.3,15.3,29.4,64.8
+MI,Michigan,Income (years 2004 and beyond),"$10,000 to $24,999",17.7,18.5,31.1,58.7
+MI,Michigan,Income (years 2004 and beyond),"$25,000 to $49,999",9.8,16,28.4,71.5
+MI,Michigan,Income (years 2004 and beyond),"$50,000 or more",8.5,9,32.6,78.2
+MI,Michigan,Income (years 2004 and beyond),"Less than $10,000",23.9,22.5,25.9,48.8
+MI,Michigan,Marital Status,MARRIED,9.5,11.1,27.2,69.6
+MI,Michigan,Marital Status,OTHER,21.1,21,31.5,56.4
+MI,Michigan,Maternal Age (3 Levels),20-29 yrs,15.5,17.7,32.4,65.8
+MI,Michigan,Maternal Age (3 Levels),30+ yrs,10.1,9.6,27.3,69.4
+MI,Michigan,Maternal Age (3 Levels),<20 yrs,22.4,21.1,16.6,36.9
+MI,Michigan,Maternal Age (4 Levels),20-24 yrs,16.4,18.7,32.4,62.7
+MI,Michigan,Maternal Age (4 Levels),25-34 yrs,12.8,14.2,31.7,69.8
+MI,Michigan,Maternal Age (4 Levels),35+ yrs,9.4,7,20.1,65.5
+MI,Michigan,Maternal Age (4 Levels),<20 yrs,22.4,21.1,16.6,36.9
+MI,Michigan,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,17.6,20,29.2,57.8
+MI,Michigan,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,14.3,15.3,31.4,68.5
+MI,Michigan,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,9.8,10.1,27.4,69.7
+MI,Michigan,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+MI,Michigan,Maternal Age - 18 to 44 years in groupings,Age < 18,24.5,13.2,12.2,27.8
+MI,Michigan,Maternal Age - 18 to 44 years only,Age 18 - 44,14,15.3,29.5,65.3
+MI,Michigan,Maternal Education,12 yrs,15.1,16.8,30.9,62.1
+MI,Michigan,Maternal Education,< 12 yrs,26.9,22.4,15.6,35.4
+MI,Michigan,Maternal Education,>12 yrs,11,13,31.1,71.7
+MI,Michigan,Maternal Race/Ethnicity,"Black, non-Hispanic",12.7,9.2,19.7,51.6
+MI,Michigan,Maternal Race/Ethnicity,Hispanic,10.1,9.1,20.4,47.5
+MI,Michigan,Maternal Race/Ethnicity,Other non-Hispanic,11.1,15.5,17.7,36.3
+MI,Michigan,Maternal Race/Ethnicity,"White, non-Hispanic",15.5,17.4,33.1,71.5
+MI,Michigan,Medicaid Recipient,Medicaid,19.7,20.5,28.2,54.8
+MI,Michigan,Medicaid Recipient,Non-Medicaid,8.1,9,29.8,74.9
+MI,Michigan,Mother Hispanic,Hispanic,10.1,9.1,20.4,47.5
+MI,Michigan,Mother Hispanic,Non-Hispanic,14.7,15.7,29.6,65.4
+MI,Michigan,None,None,14.3,15.2,29,64.1
+MI,Michigan,Number of Previous Live Births,0,15.4,16.2,33.6,67.2
+MI,Michigan,Number of Previous Live Births,1 or more,13.5,14.5,25.3,61.8
+MI,Michigan,On WIC during Pregnancy,Non-WIC,8.9,11.2,32.5,75.4
+MI,Michigan,On WIC during Pregnancy,WIC,19.5,19.1,25.7,53.5
+MI,Michigan,Pregnancy Intendedness,Intended,12.6,13.6,26.4,65.8
+MI,Michigan,Pregnancy Intendedness,Unintended,16.4,17.2,32.3,62.1
+MI,Michigan,Smoked 3 months before Pregnancy,Non-Smoker,9.3,10,22.2,58.7
+MI,Michigan,Smoked 3 months before Pregnancy,Smoker,25.6,27.9,45.8,76.9
+MI,Michigan,Smoked last 3 months of Pregnancy,Non-Smoker,11.5,11.7,27.1,63.5
+MI,Michigan,Smoked last 3 months of Pregnancy,Smoker,28.7,35.3,40.4,67.2
+MN,Minnesota,Adequacy of Prenatal care,ADEQUATE PNC,11,12.3,33.4,69.4
+MN,Minnesota,Adequacy of Prenatal care,INADEQUATE PNC,16.7,17.6,31.1,55.1
+MN,Minnesota,Adequacy of Prenatal care,INTERMEDIATE PNC,9.1,12.4,29.3,61.8
+MN,Minnesota,Adequacy of Prenatal care,UNKNOWN PNC,6.1,4.3,40.5,77.8
+MN,Minnesota,Birth Weight,LBW (<=2500g),15,19.2,37.1,68.3
+MN,Minnesota,Birth Weight,NBW (>2500g),10.2,11.6,32.8,68.1
+MN,Minnesota,Income (years 2004 and beyond),"$10,000 to $24,999",11.3,12.1,35.9,58.4
+MN,Minnesota,Income (years 2004 and beyond),"$25,000 to $49,999",11.5,14.2,32.8,65.2
+MN,Minnesota,Income (years 2004 and beyond),"$50,000 or more",7,8.9,34.7,81.3
+MN,Minnesota,Income (years 2004 and beyond),"Less than $10,000",18.9,17.4,30.2,44
+MN,Minnesota,Marital Status,MARRIED,8.1,10.1,30.5,71.2
+MN,Minnesota,Marital Status,OTHER,16.3,16.5,39.4,60.8
+MN,Minnesota,Maternal Age (3 Levels),20-29 yrs,10.9,13,39.3,68.6
+MN,Minnesota,Maternal Age (3 Levels),30+ yrs,9.3,9.4,26.2,70.7
+MN,Minnesota,Maternal Age (3 Levels),<20 yrs,17.2,24.5,29.4,40.4
+MN,Minnesota,Maternal Age (4 Levels),20-24 yrs,14,18.6,37.2,63.9
+MN,Minnesota,Maternal Age (4 Levels),25-34 yrs,8.8,9,34.5,71.3
+MN,Minnesota,Maternal Age (4 Levels),35+ yrs,12.1,13.6,22,68.2
+MN,Minnesota,Maternal Age (4 Levels),<20 yrs,17.2,24.5,29.4,40.4
+MN,Minnesota,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,14.4,20.2,37,61.2
+MN,Minnesota,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,10.1,9.9,38.1,71.8
+MN,Minnesota,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,8.5,9.6,25.6,69.8
+MN,Minnesota,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+MN,Minnesota,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+MN,Minnesota,Maternal Age - 18 to 44 years only,Age 18 - 44,10.4,12,33.4,68.9
+MN,Minnesota,Maternal Education,12 yrs,12,15.5,35.9,57.3
+MN,Minnesota,Maternal Education,< 12 yrs,15.7,17.8,18.9,36.4
+MN,Minnesota,Maternal Education,>12 yrs,9.2,10.2,34.3,75.4
+MN,Minnesota,Maternal Race/Ethnicity,"Black, non-Hispanic",19,9.4,18.5,42.8
+MN,Minnesota,Maternal Race/Ethnicity,Hispanic,3.7,4.7,15.8,28.7
+MN,Minnesota,Maternal Race/Ethnicity,Other non-Hispanic,7.5,7,18.4,33.2
+MN,Minnesota,Maternal Race/Ethnicity,"White, non-Hispanic",11.2,13.8,38.2,79.6
+MN,Minnesota,Medicaid Recipient,Medicaid,15,14.7,31.2,52.8
+MN,Minnesota,Medicaid Recipient,Non-Medicaid,8.2,10.6,34.1,76
+MN,Minnesota,Mother Hispanic,Hispanic,3.7,4.7,15.8,28.7
+MN,Minnesota,Mother Hispanic,Non-Hispanic,11,12.5,34.1,70.6
+MN,Minnesota,None,None,10.5,12,33.1,68.2
+MN,Minnesota,Number of Previous Live Births,0,10.3,12.6,41.9,74.2
+MN,Minnesota,Number of Previous Live Births,1 or more,11,11.8,26.5,63.4
+MN,Minnesota,On WIC during Pregnancy,Non-WIC,8.8,10.7,36.1,79
+MN,Minnesota,On WIC during Pregnancy,WIC,13.4,13.9,28.1,50.4
+MN,Minnesota,Pregnancy Intendedness,Intended,8.4,10.4,32.1,69.6
+MN,Minnesota,Pregnancy Intendedness,Unintended,15.3,16.1,36.6,66.1
+MN,Minnesota,Smoked 3 months before Pregnancy,Non-Smoker,7.9,9.2,24.5,62.3
+MN,Minnesota,Smoked 3 months before Pregnancy,Smoker,19.2,20.8,61,86.8
+MN,Minnesota,Smoked last 3 months of Pregnancy,Non-Smoker,9.1,10.8,31,66.8
+MN,Minnesota,Smoked last 3 months of Pregnancy,Smoker,25.4,23.6,53.7,80.3
+MO,Missouri,Adequacy of Prenatal care,ADEQUATE PNC,9.9,12.6,27.7,63
+MO,Missouri,Adequacy of Prenatal care,INADEQUATE PNC,20.2,10.6,11.2,29.1
+MO,Missouri,Adequacy of Prenatal care,INTERMEDIATE PNC,15.6,20.1,24.4,51.2
+MO,Missouri,Adequacy of Prenatal care,UNKNOWN PNC,14.9,15,36.9,70.4
+MO,Missouri,Birth Weight,LBW (<=2500g),13.6,14,22.5,51.7
+MO,Missouri,Birth Weight,NBW (>2500g),11.8,14.1,27.9,61
+MO,Missouri,Income (years 2004 and beyond),"$10,000 to $24,999",12.4,16.4,33.2,62
+MO,Missouri,Income (years 2004 and beyond),"$25,000 to $49,999",11.7,11.8,22.7,57.4
+MO,Missouri,Income (years 2004 and beyond),"$50,000 or more",4.4,8.3,33.1,72.4
+MO,Missouri,Income (years 2004 and beyond),"Less than $10,000",21.8,22.8,21.5,48.9
+MO,Missouri,Marital Status,MARRIED,8.6,11.2,26,61
+MO,Missouri,Marital Status,OTHER,17.2,18.6,29.9,59.5
+MO,Missouri,Maternal Age (3 Levels),20-29 yrs,14.4,16.6,30.6,62.8
+MO,Missouri,Maternal Age (3 Levels),30+ yrs,6.6,10.5,25,61
+MO,Missouri,Maternal Age (3 Levels),<20 yrs,17.2,11.1,17,42.2
+MO,Missouri,Maternal Age (4 Levels),20-24 yrs,18.5,19.7,27.9,60.9
+MO,Missouri,Maternal Age (4 Levels),25-34 yrs,8.8,12.6,30.8,64.5
+MO,Missouri,Maternal Age (4 Levels),35+ yrs,7.6,9.8,19.6,54.5
+MO,Missouri,Maternal Age (4 Levels),<20 yrs,17.2,11.1,17,42.2
+MO,Missouri,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,18.3,18.6,25.5,57.7
+MO,Missouri,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,9.8,13.1,32.2,63.6
+MO,Missouri,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,7,10.8,24.5,61.4
+MO,Missouri,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+MO,Missouri,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+MO,Missouri,Maternal Age - 18 to 44 years only,Age 18 - 44,11.9,14.3,27.6,61
+MO,Missouri,Maternal Education,12 yrs,14.3,13.1,28.8,57.7
+MO,Missouri,Maternal Education,< 12 yrs,18.8,17.8,16.7,40.5
+MO,Missouri,Maternal Education,>12 yrs,9.3,13.3,30,66.7
+MO,Missouri,Maternal Race/Ethnicity,"Black, non-Hispanic",10.2,5.7,9.1,46.5
+MO,Missouri,Maternal Race/Ethnicity,Hispanic,2.8,5.1,17.2,38.3
+MO,Missouri,Maternal Race/Ethnicity,Other non-Hispanic,25,27,27.3,53.8
+MO,Missouri,Maternal Race/Ethnicity,"White, non-Hispanic",12,15.2,31.5,64.6
+MO,Missouri,Medicaid Recipient,Medicaid,17,18.7,24.5,53.5
+MO,Missouri,Medicaid Recipient,Non-Medicaid,6.8,9.4,30.8,67.5
+MO,Missouri,Mother Hispanic,Hispanic,2.8,5.1,17.2,38.3
+MO,Missouri,Mother Hispanic,Non-Hispanic,12.5,14.5,27.9,61.4
+MO,Missouri,None,None,12,14.1,27.6,60.4
+MO,Missouri,Number of Previous Live Births,0,11.3,12.7,33.5,64.7
+MO,Missouri,Number of Previous Live Births,1 or more,12.5,15,22.9,57.3
+MO,Missouri,On WIC during Pregnancy,Non-WIC,8.1,11,29.6,66
+MO,Missouri,On WIC during Pregnancy,WIC,16.9,18.2,25.5,54
+MO,Missouri,Pregnancy Intendedness,Intended,8.4,11.3,27.1,61.5
+MO,Missouri,Pregnancy Intendedness,Unintended,16.6,18,29,59.4
+MO,Missouri,Smoked 3 months before Pregnancy,Non-Smoker,6.2,7.2,20.7,54.5
+MO,Missouri,Smoked 3 months before Pregnancy,Smoker,23.5,28.1,41.8,71.7
+MO,Missouri,Smoked last 3 months of Pregnancy,Non-Smoker,8.7,9.3,25.5,59.5
+MO,Missouri,Smoked last 3 months of Pregnancy,Smoker,26.9,36,37.8,64.5
+NE,Nebraska,Adequacy of Prenatal care,ADEQUATE PNC,,,36.1,68.9
+NE,Nebraska,Adequacy of Prenatal care,INADEQUATE PNC,,,19.4,37.8
+NE,Nebraska,Adequacy of Prenatal care,INTERMEDIATE PNC,,,27.8,57.2
+NE,Nebraska,Adequacy of Prenatal care,UNKNOWN PNC,,,29.9,59.2
+NE,Nebraska,Birth Weight,LBW (<=2500g),,,33.1,57.2
+NE,Nebraska,Birth Weight,NBW (>2500g),,,33.4,65.2
+NE,Nebraska,Income (years 2004 and beyond),"$10,000 to $24,999",,,31,58.1
+NE,Nebraska,Income (years 2004 and beyond),"$25,000 to $49,999",,,37.7,66.5
+NE,Nebraska,Income (years 2004 and beyond),"$50,000 or more",,,37.7,79.8
+NE,Nebraska,Income (years 2004 and beyond),"Less than $10,000",,,26.9,46.4
+NE,Nebraska,Marital Status,MARRIED,,,31.8,66.6
+NE,Nebraska,Marital Status,OTHER,,,36.7,60.6
+NE,Nebraska,Maternal Age (3 Levels),20-29 yrs,,,36.8,65.7
+NE,Nebraska,Maternal Age (3 Levels),30+ yrs,,,29,67.3
+NE,Nebraska,Maternal Age (3 Levels),<20 yrs,,,30.3,41.6
+NE,Nebraska,Maternal Age (4 Levels),20-24 yrs,,,37.1,61.5
+NE,Nebraska,Maternal Age (4 Levels),25-34 yrs,,,34.4,69.4
+NE,Nebraska,Maternal Age (4 Levels),35+ yrs,,,23.9,59.5
+NE,Nebraska,Maternal Age (4 Levels),<20 yrs,,,30.3,41.6
+NE,Nebraska,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,37,58.7
+NE,Nebraska,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,37.4,68.3
+NE,Nebraska,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,26.4,67
+NE,Nebraska,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+NE,Nebraska,Maternal Age - 18 to 44 years in groupings,Age < 18,,,4.5,17.8
+NE,Nebraska,Maternal Age - 18 to 44 years only,Age 18 - 44,,,33.8,65.4
+NE,Nebraska,Maternal Education,12 yrs,,,28.6,55
+NE,Nebraska,Maternal Education,< 12 yrs,,,15.1,24
+NE,Nebraska,Maternal Education,>12 yrs,,,38.1,74.9
+NE,Nebraska,Maternal Race/Ethnicity,"Black, non-Hispanic",,,18.3,43.4
+NE,Nebraska,Maternal Race/Ethnicity,Hispanic,,,16.3,29
+NE,Nebraska,Maternal Race/Ethnicity,Other non-Hispanic,,,17.1,38.8
+NE,Nebraska,Maternal Race/Ethnicity,"White, non-Hispanic",,,39.3,75.4
+NE,Nebraska,Medicaid Recipient,Medicaid,,,29.4,51.9
+NE,Nebraska,Medicaid Recipient,Non-Medicaid,,,36.5,74.7
+NE,Nebraska,Mother Hispanic,Hispanic,,,16.3,29
+NE,Nebraska,Mother Hispanic,Non-Hispanic,,,36.1,70.6
+NE,Nebraska,None,None,,,33.4,64.7
+NE,Nebraska,Number of Previous Live Births,0,,,45.5,70.2
+NE,Nebraska,Number of Previous Live Births,1 or more,,,26.6,61.5
+NE,Nebraska,On WIC during Pregnancy,Non-WIC,,,36.5,74.1
+NE,Nebraska,On WIC during Pregnancy,WIC,,,28.1,48.7
+NE,Nebraska,Pregnancy Intendedness,Intended,,,32.8,65.6
+NE,Nebraska,Pregnancy Intendedness,Unintended,,,34.2,63.7
+NE,Nebraska,Smoked 3 months before Pregnancy,Non-Smoker,,,26.3,60.2
+NE,Nebraska,Smoked 3 months before Pregnancy,Smoker,,,52.7,76.9
+NE,Nebraska,Smoked last 3 months of Pregnancy,Non-Smoker,,,31.9,64.2
+NE,Nebraska,Smoked last 3 months of Pregnancy,Smoker,,,45.8,69.4
+NJ,New Jersey,Adequacy of Prenatal care,ADEQUATE PNC,,,21.7,58.1
+NJ,New Jersey,Adequacy of Prenatal care,INADEQUATE PNC,,,17.1,39.1
+NJ,New Jersey,Adequacy of Prenatal care,INTERMEDIATE PNC,,,15.7,40.9
+NJ,New Jersey,Adequacy of Prenatal care,UNKNOWN PNC,,,,
+NJ,New Jersey,Birth Weight,LBW (<=2500g),,,25.8,59.1
+NJ,New Jersey,Birth Weight,NBW (>2500g),,,19.2,51.7
+NJ,New Jersey,Income (years 2004 and beyond),"$10,000 to $24,999",,,21.1,41.8
+NJ,New Jersey,Income (years 2004 and beyond),"$25,000 to $49,999",,,20.1,51
+NJ,New Jersey,Income (years 2004 and beyond),"$50,000 or more",,,24.9,68.8
+NJ,New Jersey,Income (years 2004 and beyond),"Less than $10,000",,,14,32.3
+NJ,New Jersey,Marital Status,MARRIED,,,19.3,55.3
+NJ,New Jersey,Marital Status,OTHER,,,20.5,47.4
+NJ,New Jersey,Maternal Age (3 Levels),20-29 yrs,,,18,49.4
+NJ,New Jersey,Maternal Age (3 Levels),30+ yrs,,,21.9,57.4
+NJ,New Jersey,Maternal Age (3 Levels),<20 yrs,,,13.9,28.8
+NJ,New Jersey,Maternal Age (4 Levels),20-24 yrs,,,19.1,44.9
+NJ,New Jersey,Maternal Age (4 Levels),25-34 yrs,,,19.7,55.1
+NJ,New Jersey,Maternal Age (4 Levels),35+ yrs,,,22.3,58
+NJ,New Jersey,Maternal Age (4 Levels),<20 yrs,,,13.9,28.8
+NJ,New Jersey,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,18.1,42.1
+NJ,New Jersey,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,19.6,53.7
+NJ,New Jersey,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,21,57.4
+NJ,New Jersey,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+NJ,New Jersey,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+NJ,New Jersey,Maternal Age - 18 to 44 years only,Age 18 - 44,,,19.9,52.8
+NJ,New Jersey,Maternal Education,12 yrs,,,17.8,43.3
+NJ,New Jersey,Maternal Education,< 12 yrs,,,9.6,19.3
+NJ,New Jersey,Maternal Education,>12 yrs,,,22.7,62.6
+NJ,New Jersey,Maternal Race/Ethnicity,"Black, non-Hispanic",,,17.8,47
+NJ,New Jersey,Maternal Race/Ethnicity,Hispanic,,,15.6,37.8
+NJ,New Jersey,Maternal Race/Ethnicity,Other non-Hispanic,,,9.8,28.5
+NJ,New Jersey,Maternal Race/Ethnicity,"White, non-Hispanic",,,25.5,69
+NJ,New Jersey,Medicaid Recipient,Medicaid,,,16.2,39.3
+NJ,New Jersey,Medicaid Recipient,Non-Medicaid,,,21.9,60
+NJ,New Jersey,Mother Hispanic,Hispanic,,,15.6,37.8
+NJ,New Jersey,Mother Hispanic,Non-Hispanic,,,21.4,57.6
+NJ,New Jersey,None,None,,,19.8,52.3
+NJ,New Jersey,Number of Previous Live Births,0,,,24.4,60.1
+NJ,New Jersey,Number of Previous Live Births,1 or more,,,16.6,46.9
+NJ,New Jersey,On WIC during Pregnancy,Non-WIC,,,22.3,60.6
+NJ,New Jersey,On WIC during Pregnancy,WIC,,,15.6,37.8
+NJ,New Jersey,Pregnancy Intendedness,Intended,,,20.2,54.6
+NJ,New Jersey,Pregnancy Intendedness,Unintended,,,19.2,50.1
+NJ,New Jersey,Smoked 3 months before Pregnancy,Non-Smoker,,,15.4,47.9
+NJ,New Jersey,Smoked 3 months before Pregnancy,Smoker,,,41.6,74.6
+NJ,New Jersey,Smoked last 3 months of Pregnancy,Non-Smoker,,,18.9,51.9
+NJ,New Jersey,Smoked last 3 months of Pregnancy,Smoker,,,34,60.4
+NM,New Mexico,Adequacy of Prenatal care,ADEQUATE PNC,,,21.8,51.7
+NM,New Mexico,Adequacy of Prenatal care,INADEQUATE PNC,,,21.7,48.8
+NM,New Mexico,Adequacy of Prenatal care,INTERMEDIATE PNC,,,18.2,47
+NM,New Mexico,Adequacy of Prenatal care,UNKNOWN PNC,,,19.7,44.4
+NM,New Mexico,Birth Weight,LBW (<=2500g),,,23.3,53.8
+NM,New Mexico,Birth Weight,NBW (>2500g),,,20.5,49.3
+NM,New Mexico,Income (years 2004 and beyond),"$10,000 to $24,999",,,21.8,51
+NM,New Mexico,Income (years 2004 and beyond),"$25,000 to $49,999",,,20,55.1
+NM,New Mexico,Income (years 2004 and beyond),"$50,000 or more",,,18.3,60.4
+NM,New Mexico,Income (years 2004 and beyond),"Less than $10,000",,,22.9,41.5
+NM,New Mexico,Marital Status,MARRIED,,,17.2,49.6
+NM,New Mexico,Marital Status,OTHER,,,23.8,49.2
+NM,New Mexico,Maternal Age (3 Levels),20-29 yrs,,,25.5,55.6
+NM,New Mexico,Maternal Age (3 Levels),30+ yrs,,,13.5,45.9
+NM,New Mexico,Maternal Age (3 Levels),<20 yrs,,,17.5,31.4
+NM,New Mexico,Maternal Age (4 Levels),20-24 yrs,,,26.8,55.7
+NM,New Mexico,Maternal Age (4 Levels),25-34 yrs,,,20,52.1
+NM,New Mexico,Maternal Age (4 Levels),35+ yrs,,,10.8,41.7
+NM,New Mexico,Maternal Age (4 Levels),<20 yrs,,,17.5,31.4
+NM,New Mexico,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,25.5,50.9
+NM,New Mexico,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,22.9,53.5
+NM,New Mexico,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,12.4,46.2
+NM,New Mexico,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+NM,New Mexico,Maternal Age - 18 to 44 years in groupings,Age < 18,,,10.8,27.8
+NM,New Mexico,Maternal Age - 18 to 44 years only,Age 18 - 44,,,21.1,50.5
+NM,New Mexico,Maternal Education,12 yrs,,,23.2,49.9
+NM,New Mexico,Maternal Education,< 12 yrs,,,15.2,30.4
+NM,New Mexico,Maternal Education,>12 yrs,,,22.2,58.8
+NM,New Mexico,Maternal Race/Ethnicity,"Black, non-Hispanic",,,,
+NM,New Mexico,Maternal Race/Ethnicity,Hispanic,,,19.6,46.3
+NM,New Mexico,Maternal Race/Ethnicity,Other non-Hispanic,,,21.7,42.9
+NM,New Mexico,Maternal Race/Ethnicity,"White, non-Hispanic",,,21.9,60.6
+NM,New Mexico,Medicaid Recipient,Medicaid,,,23.1,49.2
+NM,New Mexico,Medicaid Recipient,Non-Medicaid,,,15.9,50.3
+NM,New Mexico,Mother Hispanic,Hispanic,,,19.6,46.3
+NM,New Mexico,Mother Hispanic,Non-Hispanic,,,22.1,54.3
+NM,New Mexico,None,None,,,20.7,49.6
+NM,New Mexico,Number of Previous Live Births,0,,,23.1,53.6
+NM,New Mexico,Number of Previous Live Births,1 or more,,,18.9,46.9
+NM,New Mexico,On WIC during Pregnancy,Non-WIC,,,20.7,55.9
+NM,New Mexico,On WIC during Pregnancy,WIC,,,20.8,44.9
+NM,New Mexico,Pregnancy Intendedness,Intended,,,16.6,46.5
+NM,New Mexico,Pregnancy Intendedness,Unintended,,,25.7,53.1
+NM,New Mexico,Smoked 3 months before Pregnancy,Non-Smoker,,,14.8,43.1
+NM,New Mexico,Smoked 3 months before Pregnancy,Smoker,,,37.6,68.3
+NM,New Mexico,Smoked last 3 months of Pregnancy,Non-Smoker,,,20.2,49
+NM,New Mexico,Smoked last 3 months of Pregnancy,Smoker,,,26,55.2
+NY,New York (excluding NYC),Adequacy of Prenatal care,ADEQUATE PNC,,,25.6,60.7
+NY,New York (excluding NYC),Adequacy of Prenatal care,INADEQUATE PNC,,,12.5,42.8
+NY,New York (excluding NYC),Adequacy of Prenatal care,INTERMEDIATE PNC,,,12.4,44.7
+NY,New York (excluding NYC),Adequacy of Prenatal care,UNKNOWN PNC,,,23.6,44.5
+NY,New York (excluding NYC),Birth Weight,LBW (<=2500g),,,19.8,50.8
+NY,New York (excluding NYC),Birth Weight,NBW (>2500g),,,22.7,56.3
+NY,New York (excluding NYC),Income (years 2004 and beyond),"$10,000 to $24,999",,,20.4,41.8
+NY,New York (excluding NYC),Income (years 2004 and beyond),"$25,000 to $49,999",,,26.4,62.8
+NY,New York (excluding NYC),Income (years 2004 and beyond),"$50,000 or more",,,26,72
+NY,New York (excluding NYC),Income (years 2004 and beyond),"Less than $10,000",,,19.2,40.5
+NY,New York (excluding NYC),Marital Status,MARRIED,,,21.1,59.1
+NY,New York (excluding NYC),Marital Status,OTHER,,,24.8,50.6
+NY,New York (excluding NYC),Maternal Age (3 Levels),20-29 yrs,,,24.5,54
+NY,New York (excluding NYC),Maternal Age (3 Levels),30+ yrs,,,20.1,60.9
+NY,New York (excluding NYC),Maternal Age (3 Levels),<20 yrs,,,24.5,35.1
+NY,New York (excluding NYC),Maternal Age (4 Levels),20-24 yrs,,,25.5,55.1
+NY,New York (excluding NYC),Maternal Age (4 Levels),25-34 yrs,,,23.2,58.1
+NY,New York (excluding NYC),Maternal Age (4 Levels),35+ yrs,,,16.9,58.1
+NY,New York (excluding NYC),Maternal Age (4 Levels),<20 yrs,,,24.5,35.1
+NY,New York (excluding NYC),Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,24.8,50.5
+NY,New York (excluding NYC),Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,23.5,54.6
+NY,New York (excluding NYC),Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,20.2,60.3
+NY,New York (excluding NYC),Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+NY,New York (excluding NYC),Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+NY,New York (excluding NYC),Maternal Age - 18 to 44 years only,Age 18 - 44,,,22.4,56.1
+NY,New York (excluding NYC),Maternal Education,12 yrs,,,17.4,51.2
+NY,New York (excluding NYC),Maternal Education,< 12 yrs,,,11.4,21.7
+NY,New York (excluding NYC),Maternal Education,>12 yrs,,,27.7,68
+NY,New York (excluding NYC),Maternal Race/Ethnicity,"Black, non-Hispanic",,,16.6,39.3
+NY,New York (excluding NYC),Maternal Race/Ethnicity,Hispanic,,,5.3,23
+NY,New York (excluding NYC),Maternal Race/Ethnicity,Other non-Hispanic,,,6.9,37.2
+NY,New York (excluding NYC),Maternal Race/Ethnicity,"White, non-Hispanic",,,28.8,67.4
+NY,New York (excluding NYC),Medicaid Recipient,Medicaid,,,19.4,42.4
+NY,New York (excluding NYC),Medicaid Recipient,Non-Medicaid,,,24.8,65.8
+NY,New York (excluding NYC),Mother Hispanic,Hispanic,,,5.3,23
+NY,New York (excluding NYC),Mother Hispanic,Non-Hispanic,,,25.4,61.6
+NY,New York (excluding NYC),None,None,,,22.5,55.8
+NY,New York (excluding NYC),Number of Previous Live Births,0,,,32,62.9
+NY,New York (excluding NYC),Number of Previous Live Births,1 or more,,,15.9,51
+NY,New York (excluding NYC),On WIC during Pregnancy,Non-WIC,,,24.6,64.4
+NY,New York (excluding NYC),On WIC during Pregnancy,WIC,,,19.6,43.3
+NY,New York (excluding NYC),Pregnancy Intendedness,Intended,,,18.8,55.9
+NY,New York (excluding NYC),Pregnancy Intendedness,Unintended,,,30.6,58.6
+NY,New York (excluding NYC),Smoked 3 months before Pregnancy,Non-Smoker,,,15.8,49.3
+NY,New York (excluding NYC),Smoked 3 months before Pregnancy,Smoker,,,45.6,78.7
+NY,New York (excluding NYC),Smoked last 3 months of Pregnancy,Non-Smoker,,,19.7,54.1
+NY,New York (excluding NYC),Smoked last 3 months of Pregnancy,Smoker,,,44.2,69.8
+OK,Oklahoma,Adequacy of Prenatal care,ADEQUATE PNC,,,20.9,53.2
+OK,Oklahoma,Adequacy of Prenatal care,INADEQUATE PNC,,,13.8,47.2
+OK,Oklahoma,Adequacy of Prenatal care,INTERMEDIATE PNC,,,17.7,43.7
+OK,Oklahoma,Adequacy of Prenatal care,UNKNOWN PNC,,,3.9,32.6
+OK,Oklahoma,Birth Weight,LBW (<=2500g),,,20.6,47.3
+OK,Oklahoma,Birth Weight,NBW (>2500g),,,17.7,48.6
+OK,Oklahoma,Income (years 2004 and beyond),"$10,000 to $24,999",,,19.6,44.6
+OK,Oklahoma,Income (years 2004 and beyond),"$25,000 to $49,999",,,15.5,49.1
+OK,Oklahoma,Income (years 2004 and beyond),"$50,000 or more",,,19.3,62.5
+OK,Oklahoma,Income (years 2004 and beyond),"Less than $10,000",,,18.9,41.4
+OK,Oklahoma,Marital Status,MARRIED,,,14.5,51.8
+OK,Oklahoma,Marital Status,OTHER,,,22.7,43.9
+OK,Oklahoma,Maternal Age (3 Levels),20-29 yrs,,,21.9,52.6
+OK,Oklahoma,Maternal Age (3 Levels),30+ yrs,,,12.1,49
+OK,Oklahoma,Maternal Age (3 Levels),<20 yrs,,,14,26.8
+OK,Oklahoma,Maternal Age (4 Levels),20-24 yrs,,,23.1,52.9
+OK,Oklahoma,Maternal Age (4 Levels),25-34 yrs,,,16.1,50.9
+OK,Oklahoma,Maternal Age (4 Levels),35+ yrs,,,15.6,47.8
+OK,Oklahoma,Maternal Age (4 Levels),<20 yrs,,,14,26.8
+OK,Oklahoma,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,22.3,49.6
+OK,Oklahoma,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,17.5,51
+OK,Oklahoma,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,14,49.8
+OK,Oklahoma,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+OK,Oklahoma,Maternal Age - 18 to 44 years in groupings,Age < 18,,,2.8,4.9
+OK,Oklahoma,Maternal Age - 18 to 44 years only,Age 18 - 44,,,18.5,50.2
+OK,Oklahoma,Maternal Education,12 yrs,,,18.2,46.8
+OK,Oklahoma,Maternal Education,< 12 yrs,,,12.4,24.3
+OK,Oklahoma,Maternal Education,>12 yrs,,,20,58.8
+OK,Oklahoma,Maternal Race/Ethnicity,"Black, non-Hispanic",,,10,43.2
+OK,Oklahoma,Maternal Race/Ethnicity,Hispanic,,,8.8,27.7
+OK,Oklahoma,Maternal Race/Ethnicity,Other non-Hispanic,,,17.7,46.8
+OK,Oklahoma,Maternal Race/Ethnicity,"White, non-Hispanic",,,20.9,54.4
+OK,Oklahoma,Medicaid Recipient,Medicaid,,,18.8,44.2
+OK,Oklahoma,Medicaid Recipient,Non-Medicaid,,,16.4,56.1
+OK,Oklahoma,Mother Hispanic,Hispanic,,,8.8,27.7
+OK,Oklahoma,Mother Hispanic,Non-Hispanic,,,19.5,52.1
+OK,Oklahoma,None,None,,,17.9,48.5
+OK,Oklahoma,Number of Previous Live Births,0,,,24.6,52.1
+OK,Oklahoma,Number of Previous Live Births,1 or more,,,13.7,46.3
+OK,Oklahoma,On WIC during Pregnancy,Non-WIC,,,19.8,55.7
+OK,Oklahoma,On WIC during Pregnancy,WIC,,,16.5,43.4
+OK,Oklahoma,Pregnancy Intendedness,Intended,,,15.1,46.8
+OK,Oklahoma,Pregnancy Intendedness,Unintended,,,21.4,50.8
+OK,Oklahoma,Smoked 3 months before Pregnancy,Non-Smoker,,,12.4,42.6
+OK,Oklahoma,Smoked 3 months before Pregnancy,Smoker,,,30.9,62.9
+OK,Oklahoma,Smoked last 3 months of Pregnancy,Non-Smoker,,,16.2,48.3
+OK,Oklahoma,Smoked last 3 months of Pregnancy,Smoker,,,26.2,51.3
+OR,Oregon,Adequacy of Prenatal care,ADEQUATE PNC,,,21,57
+OR,Oregon,Adequacy of Prenatal care,INADEQUATE PNC,,,30.1,48.3
+OR,Oregon,Adequacy of Prenatal care,INTERMEDIATE PNC,,,16.5,44.2
+OR,Oregon,Adequacy of Prenatal care,UNKNOWN PNC,,,19.7,56.1
+OR,Oregon,Birth Weight,LBW (<=2500g),,,10.1,54.7
+OR,Oregon,Birth Weight,NBW (>2500g),,,21,54.5
+OR,Oregon,Income (years 2004 and beyond),"$10,000 to $24,999",,,20.1,50
+OR,Oregon,Income (years 2004 and beyond),"$25,000 to $49,999",,,17.6,55.2
+OR,Oregon,Income (years 2004 and beyond),"$50,000 or more",,,18.8,64.5
+OR,Oregon,Income (years 2004 and beyond),"Less than $10,000",,,26.4,50
+OR,Oregon,Marital Status,MARRIED,,,15.9,52.5
+OR,Oregon,Marital Status,OTHER,,,29,58.1
+OR,Oregon,Maternal Age (3 Levels),20-29 yrs,,,22.2,55.4
+OR,Oregon,Maternal Age (3 Levels),30+ yrs,,,18.2,55.9
+OR,Oregon,Maternal Age (3 Levels),<20 yrs,,,21.2,39.4
+OR,Oregon,Maternal Age (4 Levels),20-24 yrs,,,27,56
+OR,Oregon,Maternal Age (4 Levels),25-34 yrs,,,20.4,58.3
+OR,Oregon,Maternal Age (4 Levels),35+ yrs,,,9.7,44.1
+OR,Oregon,Maternal Age (4 Levels),<20 yrs,,,21.2,39.4
+OR,Oregon,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,26.1,52.4
+OR,Oregon,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,19.2,56.5
+OR,Oregon,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,17.4,54.8
+OR,Oregon,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+OR,Oregon,Maternal Age - 18 to 44 years in groupings,Age < 18,,,17.4,44.1
+OR,Oregon,Maternal Age - 18 to 44 years only,Age 18 - 44,,,20.5,54.7
+OR,Oregon,Maternal Education,12 yrs,,,17,48.7
+OR,Oregon,Maternal Education,< 12 yrs,,,14.6,31.2
+OR,Oregon,Maternal Education,>12 yrs,,,23.4,63.5
+OR,Oregon,Maternal Race/Ethnicity,"Black, non-Hispanic",,,15.9,43.6
+OR,Oregon,Maternal Race/Ethnicity,Hispanic,,,13,28.7
+OR,Oregon,Maternal Race/Ethnicity,Other non-Hispanic,,,21,47.3
+OR,Oregon,Maternal Race/Ethnicity,"White, non-Hispanic",,,22.7,62.9
+OR,Oregon,Medicaid Recipient,Medicaid,,,23.8,48.6
+OR,Oregon,Medicaid Recipient,Non-Medicaid,,,16.2,62
+OR,Oregon,Mother Hispanic,Hispanic,,,13,28.7
+OR,Oregon,Mother Hispanic,Non-Hispanic,,,22.2,60.5
+OR,Oregon,None,None,,,20.5,54.5
+OR,Oregon,Number of Previous Live Births,0,,,25.6,64.1
+OR,Oregon,Number of Previous Live Births,1 or more,,,16.8,47.7
+OR,Oregon,On WIC during Pregnancy,Non-WIC,,,19.1,60
+OR,Oregon,On WIC during Pregnancy,WIC,,,22.1,48.9
+OR,Oregon,Pregnancy Intendedness,Intended,,,14.5,50.3
+OR,Oregon,Pregnancy Intendedness,Unintended,,,30.8,61.6
+OR,Oregon,Smoked 3 months before Pregnancy,Non-Smoker,,,15.3,49.6
+OR,Oregon,Smoked 3 months before Pregnancy,Smoker,,,37.9,70.1
+OR,Oregon,Smoked last 3 months of Pregnancy,Non-Smoker,,,18.7,53.6
+OR,Oregon,Smoked last 3 months of Pregnancy,Smoker,,,35.3,61.5
+PA,Pennsylvania,Adequacy of Prenatal care,ADEQUATE PNC,,,28.8,64.5
+PA,Pennsylvania,Adequacy of Prenatal care,INADEQUATE PNC,,,13.4,43.8
+PA,Pennsylvania,Adequacy of Prenatal care,INTERMEDIATE PNC,,,29.9,52.7
+PA,Pennsylvania,Adequacy of Prenatal care,UNKNOWN PNC,,,25.4,64.2
+PA,Pennsylvania,Birth Weight,LBW (<=2500g),,,19.3,52.6
+PA,Pennsylvania,Birth Weight,NBW (>2500g),,,28.1,61.4
+PA,Pennsylvania,Income (years 2004 and beyond),"$10,000 to $24,999",,,26.8,49.8
+PA,Pennsylvania,Income (years 2004 and beyond),"$25,000 to $49,999",,,31.7,60.7
+PA,Pennsylvania,Income (years 2004 and beyond),"$50,000 or more",,,27.5,74.8
+PA,Pennsylvania,Income (years 2004 and beyond),"Less than $10,000",,,28.2,51.4
+PA,Pennsylvania,Marital Status,MARRIED,,,23.5,62.8
+PA,Pennsylvania,Marital Status,OTHER,,,33,57.8
+PA,Pennsylvania,Maternal Age (3 Levels),20-29 yrs,,,32.9,62.9
+PA,Pennsylvania,Maternal Age (3 Levels),30+ yrs,,,22.2,63.6
+PA,Pennsylvania,Maternal Age (3 Levels),<20 yrs,,,18,27.2
+PA,Pennsylvania,Maternal Age (4 Levels),20-24 yrs,,,33.1,58.6
+PA,Pennsylvania,Maternal Age (4 Levels),25-34 yrs,,,29.8,66.4
+PA,Pennsylvania,Maternal Age (4 Levels),35+ yrs,,,13.3,57.6
+PA,Pennsylvania,Maternal Age (4 Levels),<20 yrs,,,18,27.2
+PA,Pennsylvania,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,30.9,54.9
+PA,Pennsylvania,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,30.9,65.1
+PA,Pennsylvania,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,22.4,64.7
+PA,Pennsylvania,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+PA,Pennsylvania,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+PA,Pennsylvania,Maternal Age - 18 to 44 years only,Age 18 - 44,,,27.9,62.2
+PA,Pennsylvania,Maternal Education,12 yrs,,,25.2,51.3
+PA,Pennsylvania,Maternal Education,< 12 yrs,,,14.2,27.9
+PA,Pennsylvania,Maternal Education,>12 yrs,,,31.7,72.3
+PA,Pennsylvania,Maternal Race/Ethnicity,"Black, non-Hispanic",,,18,45.8
+PA,Pennsylvania,Maternal Race/Ethnicity,Hispanic,,,21.4,44.1
+PA,Pennsylvania,Maternal Race/Ethnicity,Other non-Hispanic,,,16.8,30.2
+PA,Pennsylvania,Maternal Race/Ethnicity,"White, non-Hispanic",,,30.8,68.2
+PA,Pennsylvania,Medicaid Recipient,Medicaid,,,32.1,53.4
+PA,Pennsylvania,Medicaid Recipient,Non-Medicaid,,,24.8,64.9
+PA,Pennsylvania,Mother Hispanic,Hispanic,,,21.4,44.1
+PA,Pennsylvania,Mother Hispanic,Non-Hispanic,,,28.3,63
+PA,Pennsylvania,None,None,,,27.5,60.8
+PA,Pennsylvania,Number of Previous Live Births,0,,,34.5,66.7
+PA,Pennsylvania,Number of Previous Live Births,1 or more,,,22.9,57
+PA,Pennsylvania,On WIC during Pregnancy,Non-WIC,,,27.5,69.4
+PA,Pennsylvania,On WIC during Pregnancy,WIC,,,27.5,48
+PA,Pennsylvania,Pregnancy Intendedness,Intended,,,25.3,62.5
+PA,Pennsylvania,Pregnancy Intendedness,Unintended,,,31.9,59
+PA,Pennsylvania,Smoked 3 months before Pregnancy,Non-Smoker,,,19.9,56
+PA,Pennsylvania,Smoked 3 months before Pregnancy,Smoker,,,48,74.3
+PA,Pennsylvania,Smoked last 3 months of Pregnancy,Non-Smoker,,,25.9,60.2
+PA,Pennsylvania,Smoked last 3 months of Pregnancy,Smoker,,,38.7,67.1
+RI,Rhode Island,Adequacy of Prenatal care,ADEQUATE PNC,,,27.3,65.2
+RI,Rhode Island,Adequacy of Prenatal care,INADEQUATE PNC,,,,
+RI,Rhode Island,Adequacy of Prenatal care,INTERMEDIATE PNC,,,18.9,47
+RI,Rhode Island,Adequacy of Prenatal care,UNKNOWN PNC,,,19.2,49.4
+RI,Rhode Island,Birth Weight,LBW (<=2500g),,,20.3,49.2
+RI,Rhode Island,Birth Weight,NBW (>2500g),,,26.1,62.3
+RI,Rhode Island,Income (years 2004 and beyond),"$10,000 to $24,999",,,33.8,60
+RI,Rhode Island,Income (years 2004 and beyond),"$25,000 to $49,999",,,25.7,62.7
+RI,Rhode Island,Income (years 2004 and beyond),"$50,000 or more",,,27.3,80.1
+RI,Rhode Island,Income (years 2004 and beyond),"Less than $10,000",,,19.2,32.8
+RI,Rhode Island,Marital Status,MARRIED,,,23.6,67.8
+RI,Rhode Island,Marital Status,OTHER,,,28.5,53
+RI,Rhode Island,Maternal Age (3 Levels),20-29 yrs,,,29.2,62.5
+RI,Rhode Island,Maternal Age (3 Levels),30+ yrs,,,23.7,66.5
+RI,Rhode Island,Maternal Age (3 Levels),<20 yrs,,,14.8,24.3
+RI,Rhode Island,Maternal Age (4 Levels),20-24 yrs,,,28.3,53.4
+RI,Rhode Island,Maternal Age (4 Levels),25-34 yrs,,,28.6,67.9
+RI,Rhode Island,Maternal Age (4 Levels),35+ yrs,,,18.2,65.6
+RI,Rhode Island,Maternal Age (4 Levels),<20 yrs,,,14.8,24.3
+RI,Rhode Island,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,25.4,47.6
+RI,Rhode Island,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,30.2,69
+RI,Rhode Island,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,22.8,65.6
+RI,Rhode Island,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+RI,Rhode Island,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+RI,Rhode Island,Maternal Age - 18 to 44 years only,Age 18 - 44,,,26.1,62.2
+RI,Rhode Island,Maternal Education,12 yrs,,,27.3,51.6
+RI,Rhode Island,Maternal Education,< 12 yrs,,,16.7,30.4
+RI,Rhode Island,Maternal Education,>12 yrs,,,27.7,74.7
+RI,Rhode Island,Maternal Race/Ethnicity,"Black, non-Hispanic",,,15,40.1
+RI,Rhode Island,Maternal Race/Ethnicity,Hispanic,,,15.1,34.7
+RI,Rhode Island,Maternal Race/Ethnicity,Other non-Hispanic,,,16.7,49
+RI,Rhode Island,Maternal Race/Ethnicity,"White, non-Hispanic",,,31.7,74.5
+RI,Rhode Island,Medicaid Recipient,Medicaid,,,24.9,45.8
+RI,Rhode Island,Medicaid Recipient,Non-Medicaid,,,26.5,76.2
+RI,Rhode Island,Mother Hispanic,Hispanic,,,15.1,34.7
+RI,Rhode Island,Mother Hispanic,Non-Hispanic,,,28.6,68.1
+RI,Rhode Island,None,None,,,25.7,61.4
+RI,Rhode Island,Number of Previous Live Births,0,,,32.4,68
+RI,Rhode Island,Number of Previous Live Births,1 or more,,,20.5,56.4
+RI,Rhode Island,On WIC during Pregnancy,Non-WIC,,,27.6,75.8
+RI,Rhode Island,On WIC during Pregnancy,WIC,,,23.7,44.9
+RI,Rhode Island,Pregnancy Intendedness,Intended,,,23.8,64.1
+RI,Rhode Island,Pregnancy Intendedness,Unintended,,,29.3,58.8
+RI,Rhode Island,Smoked 3 months before Pregnancy,Non-Smoker,,,17.6,56.4
+RI,Rhode Island,Smoked 3 months before Pregnancy,Smoker,,,52.7,78.9
+RI,Rhode Island,Smoked last 3 months of Pregnancy,Non-Smoker,,,23.6,60.5
+RI,Rhode Island,Smoked last 3 months of Pregnancy,Smoker,,,46,71.6
+UT,Utah,Adequacy of Prenatal care,ADEQUATE PNC,12.3,12.2,11.5,22.9
+UT,Utah,Adequacy of Prenatal care,INADEQUATE PNC,13.1,17.5,20.8,29
+UT,Utah,Adequacy of Prenatal care,INTERMEDIATE PNC,11.4,11.1,12,22.4
+UT,Utah,Adequacy of Prenatal care,UNKNOWN PNC,19.2,11.7,25.2,34.2
+UT,Utah,Birth Weight,LBW (<=2500g),15.3,17.9,16.8,31.9
+UT,Utah,Birth Weight,NBW (>2500g),12.3,11.8,12.1,23
+UT,Utah,Income (years 2004 and beyond),"$10,000 to $24,999",13.9,11.8,11.5,24.6
+UT,Utah,Income (years 2004 and beyond),"$25,000 to $49,999",11.9,11.8,9.3,18.5
+UT,Utah,Income (years 2004 and beyond),"$50,000 or more",8,10.1,11.7,23.5
+UT,Utah,Income (years 2004 and beyond),"Less than $10,000",23.1,21,24,33.9
+UT,Utah,Marital Status,MARRIED,10.3,10.4,7.5,17.1
+UT,Utah,Marital Status,OTHER,20.7,18.9,34.5,52.1
+UT,Utah,Maternal Age (3 Levels),20-29 yrs,12.8,12.9,14.7,25.7
+UT,Utah,Maternal Age (3 Levels),30+ yrs,10.7,10,7.6,18.3
+UT,Utah,Maternal Age (3 Levels),<20 yrs,21,19,18.8,33.4
+UT,Utah,Maternal Age (4 Levels),20-24 yrs,11.9,11.6,19,31.1
+UT,Utah,Maternal Age (4 Levels),25-34 yrs,12,12,10.4,20.8
+UT,Utah,Maternal Age (4 Levels),35+ yrs,12.1,11.4,5.3,16.4
+UT,Utah,Maternal Age (4 Levels),<20 yrs,21,19,18.8,33.4
+UT,Utah,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,13.2,12.7,19.4,31.9
+UT,Utah,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,12.7,12.4,11.7,21.7
+UT,Utah,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,11.2,11.2,6.9,18.2
+UT,Utah,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+UT,Utah,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+UT,Utah,Maternal Age - 18 to 44 years only,Age 18 - 44,12.4,12.1,12.4,23.5
+UT,Utah,Maternal Education,12 yrs,13,15.5,19.7,39.9
+UT,Utah,Maternal Education,< 12 yrs,16,15.1,17,28.8
+UT,Utah,Maternal Education,>12 yrs,11.7,10.9,9.7,18.3
+UT,Utah,Maternal Race/Ethnicity,"Black, non-Hispanic",,,,
+UT,Utah,Maternal Race/Ethnicity,Hispanic,11.6,10.5,14.1,26.6
+UT,Utah,Maternal Race/Ethnicity,Other non-Hispanic,11.2,12.4,11.9,22.7
+UT,Utah,Maternal Race/Ethnicity,"White, non-Hispanic",12.9,12.6,12.1,23.1
+UT,Utah,Medicaid Recipient,Medicaid,16.3,14.8,16.5,28.5
+UT,Utah,Medicaid Recipient,Non-Medicaid,10.3,10.7,10.1,20.7
+UT,Utah,Mother Hispanic,Hispanic,11.6,10.5,14.1,26.6
+UT,Utah,Mother Hispanic,Non-Hispanic,12.6,12.5,12,22.9
+UT,Utah,None,None,12.5,12.2,12.4,23.5
+UT,Utah,Number of Previous Live Births,0,8.6,11.1,17.8,30.9
+UT,Utah,Number of Previous Live Births,1 or more,14.2,12.6,10,20.1
+UT,Utah,On WIC during Pregnancy,Non-WIC,10.1,10.4,10.6,21.5
+UT,Utah,On WIC during Pregnancy,WIC,17.5,16.1,15.9,27.7
+UT,Utah,Pregnancy Intendedness,Intended,9.6,9.4,8.2,17.7
+UT,Utah,Pregnancy Intendedness,Unintended,19.2,18.7,21.7,36.4
+UT,Utah,Smoked 3 months before Pregnancy,Non-Smoker,10.4,10.1,7.1,16.1
+UT,Utah,Smoked 3 months before Pregnancy,Smoker,28.1,28.6,52.9,80.2
+UT,Utah,Smoked last 3 months of Pregnancy,Non-Smoker,11.4,11.3,10.7,21.6
+UT,Utah,Smoked last 3 months of Pregnancy,Smoker,37.6,34.8,52.2,67.9
+VT,Vermont,Adequacy of Prenatal care,ADEQUATE PNC,,,31.8,71
+VT,Vermont,Adequacy of Prenatal care,INADEQUATE PNC,,,,
+VT,Vermont,Adequacy of Prenatal care,INTERMEDIATE PNC,,,27.4,61.1
+VT,Vermont,Adequacy of Prenatal care,UNKNOWN PNC,,,21.6,51.7
+VT,Vermont,Birth Weight,LBW (<=2500g),,,25,61.3
+VT,Vermont,Birth Weight,NBW (>2500g),,,30,67.8
+VT,Vermont,Income (years 2004 and beyond),"$10,000 to $24,999",,,30.2,58
+VT,Vermont,Income (years 2004 and beyond),"$25,000 to $49,999",,,29.1,65.6
+VT,Vermont,Income (years 2004 and beyond),"$50,000 or more",,,28.4,80.1
+VT,Vermont,Income (years 2004 and beyond),"Less than $10,000",,,34.5,53.6
+VT,Vermont,Marital Status,MARRIED,,,26,71.1
+VT,Vermont,Marital Status,OTHER,,,35.5,61.7
+VT,Vermont,Maternal Age (3 Levels),20-29 yrs,,,34.8,67.3
+VT,Vermont,Maternal Age (3 Levels),30+ yrs,,,24.4,70.5
+VT,Vermont,Maternal Age (3 Levels),<20 yrs,,,23.8,43.2
+VT,Vermont,Maternal Age (4 Levels),20-24 yrs,,,37,62.3
+VT,Vermont,Maternal Age (4 Levels),25-34 yrs,,,30.5,70.8
+VT,Vermont,Maternal Age (4 Levels),35+ yrs,,,19.4,71.2
+VT,Vermont,Maternal Age (4 Levels),<20 yrs,,,23.8,43.2
+VT,Vermont,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,35.7,61.1
+VT,Vermont,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,30.1,67.6
+VT,Vermont,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,25.8,73.7
+VT,Vermont,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+VT,Vermont,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+VT,Vermont,Maternal Age - 18 to 44 years only,Age 18 - 44,,,30,68.1
+VT,Vermont,Maternal Education,12 yrs,,,31.3,55.5
+VT,Vermont,Maternal Education,< 12 yrs,,,16.9,34.4
+VT,Vermont,Maternal Education,>12 yrs,,,31,78
+VT,Vermont,Maternal Race/Ethnicity,"Black, non-Hispanic",,,,
+VT,Vermont,Maternal Race/Ethnicity,Hispanic,,,,
+VT,Vermont,Maternal Race/Ethnicity,Other non-Hispanic,,,28.4,57.7
+VT,Vermont,Maternal Race/Ethnicity,"White, non-Hispanic",,,29.7,67.8
+VT,Vermont,Medicaid Recipient,Medicaid,,,32.6,57.6
+VT,Vermont,Medicaid Recipient,Non-Medicaid,,,26.8,76.5
+VT,Vermont,Mother Hispanic,Hispanic,,,,
+VT,Vermont,Mother Hispanic,Non-Hispanic,,,29.7,67.3
+VT,Vermont,None,None,,,29.7,67.4
+VT,Vermont,Number of Previous Live Births,0,,,36.6,74
+VT,Vermont,Number of Previous Live Births,1 or more,,,23.6,61.6
+VT,Vermont,On WIC during Pregnancy,Non-WIC,,,27.8,75.1
+VT,Vermont,On WIC during Pregnancy,WIC,,,32.2,57.9
+VT,Vermont,Pregnancy Intendedness,Intended,,,25.9,69.3
+VT,Vermont,Pregnancy Intendedness,Unintended,,,35.7,63.3
+VT,Vermont,Smoked 3 months before Pregnancy,Non-Smoker,,,24.6,67.5
+VT,Vermont,Smoked 3 months before Pregnancy,Smoker,,,40.4,66.9
+VT,Vermont,Smoked last 3 months of Pregnancy,Non-Smoker,,,29,70.2
+VT,Vermont,Smoked last 3 months of Pregnancy,Smoker,,,32.5,55.4
+WA,Washington,Adequacy of Prenatal care,ADEQUATE PNC,,,27.4,64.8
+WA,Washington,Adequacy of Prenatal care,INADEQUATE PNC,,,12.6,35.8
+WA,Washington,Adequacy of Prenatal care,INTERMEDIATE PNC,,,18.9,43.3
+WA,Washington,Adequacy of Prenatal care,UNKNOWN PNC,,,13.5,52.7
+WA,Washington,Birth Weight,LBW (<=2500g),,,25.8,50.6
+WA,Washington,Birth Weight,NBW (>2500g),,,22.9,57.5
+WA,Washington,Income (years 2004 and beyond),"$10,000 to $24,999",,,19.5,38.6
+WA,Washington,Income (years 2004 and beyond),"$25,000 to $49,999",,,26,61.4
+WA,Washington,Income (years 2004 and beyond),"$50,000 or more",,,22.8,73.7
+WA,Washington,Income (years 2004 and beyond),"Less than $10,000",,,29.9,52.8
+WA,Washington,Marital Status,MARRIED,,,20.1,59.6
+WA,Washington,Marital Status,OTHER,,,28.8,52.2
+WA,Washington,Maternal Age (3 Levels),20-29 yrs,,,22.5,51.6
+WA,Washington,Maternal Age (3 Levels),30+ yrs,,,22.9,66.1
+WA,Washington,Maternal Age (3 Levels),<20 yrs,,,27.2,40.5
+WA,Washington,Maternal Age (4 Levels),20-24 yrs,,,22.9,53.7
+WA,Washington,Maternal Age (4 Levels),25-34 yrs,,,23,58
+WA,Washington,Maternal Age (4 Levels),35+ yrs,,,21.6,65
+WA,Washington,Maternal Age (4 Levels),<20 yrs,,,27.2,40.5
+WA,Washington,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,23.3,51.7
+WA,Washington,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,22.5,51.9
+WA,Washington,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,23.2,68.1
+WA,Washington,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+WA,Washington,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+WA,Washington,Maternal Age - 18 to 44 years only,Age 18 - 44,,,22.9,57.6
+WA,Washington,Maternal Education,12 yrs,,,22.5,46.4
+WA,Washington,Maternal Education,< 12 yrs,,,12.4,23.5
+WA,Washington,Maternal Education,>12 yrs,,,26.1,69
+WA,Washington,Maternal Race/Ethnicity,"Black, non-Hispanic",,,12.8,31.8
+WA,Washington,Maternal Race/Ethnicity,Hispanic,,,13.2,28.4
+WA,Washington,Maternal Race/Ethnicity,Other non-Hispanic,,,18.3,47.4
+WA,Washington,Maternal Race/Ethnicity,"White, non-Hispanic",,,28.1,70.1
+WA,Washington,Medicaid Recipient,Medicaid,,,21.3,41.8
+WA,Washington,Medicaid Recipient,Non-Medicaid,,,24.7,71.7
+WA,Washington,Mother Hispanic,Hispanic,,,13.2,28.4
+WA,Washington,Mother Hispanic,Non-Hispanic,,,25.3,63.5
+WA,Washington,None,None,,,23,57.2
+WA,Washington,Number of Previous Live Births,0,,,31.1,67.7
+WA,Washington,Number of Previous Live Births,1 or more,,,17.1,49.5
+WA,Washington,On WIC during Pregnancy,Non-WIC,,,23.9,69.6
+WA,Washington,On WIC during Pregnancy,WIC,,,22,41.3
+WA,Washington,Pregnancy Intendedness,Intended,,,19.9,57.4
+WA,Washington,Pregnancy Intendedness,Unintended,,,27.9,57.2
+WA,Washington,Smoked 3 months before Pregnancy,Non-Smoker,,,17.3,53.5
+WA,Washington,Smoked 3 months before Pregnancy,Smoker,,,46.3,72.7
+WA,Washington,Smoked last 3 months of Pregnancy,Non-Smoker,,,22,56.9
+WA,Washington,Smoked last 3 months of Pregnancy,Smoker,,,35.4,61.5
+WI,Wisconsin,Adequacy of Prenatal care,ADEQUATE PNC,11.7,16,38.3,70.4
+WI,Wisconsin,Adequacy of Prenatal care,INADEQUATE PNC,26.5,20.3,3.7,40.3
+WI,Wisconsin,Adequacy of Prenatal care,INTERMEDIATE PNC,12,13.7,25,53.2
+WI,Wisconsin,Adequacy of Prenatal care,UNKNOWN PNC,20.4,19.1,37.6,68.1
+WI,Wisconsin,Birth Weight,LBW (<=2500g),26.9,26.1,40,65.7
+WI,Wisconsin,Birth Weight,NBW (>2500g),12.5,15.7,35.1,67
+WI,Wisconsin,Income (years 2004 and beyond),"$10,000 to $24,999",15.3,20.5,33.8,56.8
+WI,Wisconsin,Income (years 2004 and beyond),"$25,000 to $49,999",11.2,10.8,37.5,67.4
+WI,Wisconsin,Income (years 2004 and beyond),"$50,000 or more",6.1,11.8,37.4,79.4
+WI,Wisconsin,Income (years 2004 and beyond),"Less than $10,000",29.5,27.4,34.9,53.1
+WI,Wisconsin,Marital Status,MARRIED,7.8,11.2,33.1,70.2
+WI,Wisconsin,Marital Status,OTHER,24.6,26.6,40.1,60.2
+WI,Wisconsin,Maternal Age (3 Levels),20-29 yrs,15.3,17,38.3,66.1
+WI,Wisconsin,Maternal Age (3 Levels),30+ yrs,9.9,15.1,33.8,71.9
+WI,Wisconsin,Maternal Age (3 Levels),<20 yrs,18.1,17.5,17.4,35.8
+WI,Wisconsin,Maternal Age (4 Levels),20-24 yrs,16.6,18.3,40.1,62.4
+WI,Wisconsin,Maternal Age (4 Levels),25-34 yrs,13.1,16.1,36.9,71.6
+WI,Wisconsin,Maternal Age (4 Levels),35+ yrs,7,12.8,27.2,63.1
+WI,Wisconsin,Maternal Age (4 Levels),<20 yrs,18.1,17.5,17.4,35.8
+WI,Wisconsin,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,16.5,17.5,37.2,59.4
+WI,Wisconsin,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,14,16.4,37.6,69.8
+WI,Wisconsin,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,9.7,14.6,32.6,70.8
+WI,Wisconsin,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+WI,Wisconsin,Maternal Age - 18 to 44 years in groupings,Age < 18,24,28.1,4.4,13.8
+WI,Wisconsin,Maternal Age - 18 to 44 years only,Age 18 - 44,13.1,16.1,35.8,67.6
+WI,Wisconsin,Maternal Education,12 yrs,17,19.3,42.2,67
+WI,Wisconsin,Maternal Education,< 12 yrs,24.8,24.9,15.9,30.6
+WI,Wisconsin,Maternal Education,>12 yrs,9.6,13.3,36.2,73.6
+WI,Wisconsin,Maternal Race/Ethnicity,"Black, non-Hispanic",15.2,12.3,23.5,45.9
+WI,Wisconsin,Maternal Race/Ethnicity,Hispanic,11.4,10.8,14.8,31.6
+WI,Wisconsin,Maternal Race/Ethnicity,Other non-Hispanic,9.6,8.9,21.3,41.7
+WI,Wisconsin,Maternal Race/Ethnicity,"White, non-Hispanic",13.7,18.2,41.2,77.1
+WI,Wisconsin,Medicaid Recipient,Medicaid,19.1,21.9,36.7,59.6
+WI,Wisconsin,Medicaid Recipient,Non-Medicaid,8.4,11.4,34.3,73.1
+WI,Wisconsin,Mother Hispanic,Hispanic,11.4,10.8,14.8,31.6
+WI,Wisconsin,Mother Hispanic,Non-Hispanic,13.5,16.9,37.8,71.1
+WI,Wisconsin,None,None,13.3,16.2,35.4,66.9
+WI,Wisconsin,Number of Previous Live Births,0,13.8,17.8,44.3,71.5
+WI,Wisconsin,Number of Previous Live Births,1 or more,13,15.3,29.7,64
+WI,Wisconsin,On WIC during Pregnancy,Non-WIC,6.9,9.8,36.1,73.3
+WI,Wisconsin,On WIC during Pregnancy,WIC,23.6,26.6,34.6,56.9
+WI,Wisconsin,Pregnancy Intendedness,Intended,10.2,16.1,34.4,66.9
+WI,Wisconsin,Pregnancy Intendedness,Unintended,18.8,16.8,37,67.3
+WI,Wisconsin,Smoked 3 months before Pregnancy,Non-Smoker,9.1,11.8,28.2,62.6
+WI,Wisconsin,Smoked 3 months before Pregnancy,Smoker,24.9,29.7,57.1,80.5
+WI,Wisconsin,Smoked last 3 months of Pregnancy,Non-Smoker,11.6,14.1,32.7,66
+WI,Wisconsin,Smoked last 3 months of Pregnancy,Smoker,22.5,30.6,55.3,74.8
+WV,West Virginia,Adequacy of Prenatal care,ADEQUATE PNC,14,14.7,18.9,44.8
+WV,West Virginia,Adequacy of Prenatal care,INADEQUATE PNC,21.7,24.7,12.9,24.6
+WV,West Virginia,Adequacy of Prenatal care,INTERMEDIATE PNC,19.7,22.2,11.5,36.5
+WV,West Virginia,Adequacy of Prenatal care,UNKNOWN PNC,,,,
+WV,West Virginia,Birth Weight,LBW (<=2500g),23.5,25,16.2,37.6
+WV,West Virginia,Birth Weight,NBW (>2500g),14.8,15.8,17.2,42.5
+WV,West Virginia,Income (years 2004 and beyond),"$10,000 to $24,999",16,18.5,16.9,38.5
+WV,West Virginia,Income (years 2004 and beyond),"$25,000 to $49,999",15,15.3,20,45.1
+WV,West Virginia,Income (years 2004 and beyond),"$50,000 or more",5.8,8.9,15.8,51.3
+WV,West Virginia,Income (years 2004 and beyond),"Less than $10,000",23.1,22.6,20.5,39.6
+WV,West Virginia,Marital Status,MARRIED,12,12.9,13.2,42.5
+WV,West Virginia,Marital Status,OTHER,19.7,21.2,21.9,41.6
+WV,West Virginia,Maternal Age (3 Levels),20-29 yrs,16.8,17.2,19.6,46.5
+WV,West Virginia,Maternal Age (3 Levels),30+ yrs,12.3,14.1,13.7,42.2
+WV,West Virginia,Maternal Age (3 Levels),<20 yrs,15.7,18.9,12.7,21.3
+WV,West Virginia,Maternal Age (4 Levels),20-24 yrs,19.9,18.1,18.3,43
+WV,West Virginia,Maternal Age (4 Levels),25-34 yrs,13.8,16.1,18.4,47.4
+WV,West Virginia,Maternal Age (4 Levels),35+ yrs,4.9,8.8,11,41.3
+WV,West Virginia,Maternal Age (4 Levels),<20 yrs,15.7,18.9,12.7,21.3
+WV,West Virginia,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,19.3,18.8,16.7,37.6
+WV,West Virginia,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,12.5,14.8,20.5,49.9
+WV,West Virginia,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,12.8,15.7,12.7,41.5
+WV,West Virginia,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+WV,West Virginia,Maternal Age - 18 to 44 years in groupings,Age < 18,12.6,13.2,17.8,30.5
+WV,West Virginia,Maternal Age - 18 to 44 years only,Age 18 - 44,15.6,16.8,17.1,42.6
+WV,West Virginia,Maternal Education,12 yrs,19.9,17.6,14.2,32.3
+WV,West Virginia,Maternal Education,< 12 yrs,21.9,21.7,13.1,23.7
+WV,West Virginia,Maternal Education,>12 yrs,10.1,14.1,20.5,55.1
+WV,West Virginia,Maternal Race/Ethnicity,"Black, non-Hispanic",13,7.1,13.8,36.1
+WV,West Virginia,Maternal Race/Ethnicity,Hispanic,,,,
+WV,West Virginia,Maternal Race/Ethnicity,Other non-Hispanic,,,,
+WV,West Virginia,Maternal Race/Ethnicity,"White, non-Hispanic",15.7,17.3,17.5,42.5
+WV,West Virginia,Medicaid Recipient,Medicaid,19.6,19.6,16.9,38
+WV,West Virginia,Medicaid Recipient,Non-Medicaid,8.6,11.7,17.6,48.9
+WV,West Virginia,Mother Hispanic,Hispanic,,,,
+WV,West Virginia,Mother Hispanic,Non-Hispanic,15.5,16.7,17.3,42.4
+WV,West Virginia,None,None,15.5,16.6,17.1,42.1
+WV,West Virginia,Number of Previous Live Births,0,14.8,17.5,23.9,46.4
+WV,West Virginia,Number of Previous Live Births,1 or more,16.1,15.9,11.9,38.8
+WV,West Virginia,On WIC during Pregnancy,Non-WIC,10.1,13.8,19.1,49.9
+WV,West Virginia,On WIC during Pregnancy,WIC,19.1,18.5,16,36.9
+WV,West Virginia,Pregnancy Intendedness,Intended,12.6,13.2,13.2,40.5
+WV,West Virginia,Pregnancy Intendedness,Unintended,18.9,20.5,21.3,43.9
+WV,West Virginia,Smoked 3 months before Pregnancy,Non-Smoker,9.1,10.5,11.5,36.5
+WV,West Virginia,Smoked 3 months before Pregnancy,Smoker,24,24.9,24.3,49.6
+WV,West Virginia,Smoked last 3 months of Pregnancy,Non-Smoker,11.2,12.6,16.3,41.2
+WV,West Virginia,Smoked last 3 months of Pregnancy,Smoker,27,27.5,19.6,45.2
+WY,Wyoming,Adequacy of Prenatal care,ADEQUATE PNC,13.8,11.2,30.3,62.4
+WY,Wyoming,Adequacy of Prenatal care,INADEQUATE PNC,7.7,5.2,22.7,36.7
+WY,Wyoming,Adequacy of Prenatal care,INTERMEDIATE PNC,11.7,11.2,22.1,52
+WY,Wyoming,Adequacy of Prenatal care,UNKNOWN PNC,6.8,12,29,56.7
+WY,Wyoming,Birth Weight,LBW (<=2500g),15.5,12.2,27.2,62.4
+WY,Wyoming,Birth Weight,NBW (>2500g),12.3,10.8,28.2,58.2
+WY,Wyoming,Income (years 2004 and beyond),"$10,000 to $24,999",12.3,17.4,32.1,55
+WY,Wyoming,Income (years 2004 and beyond),"$25,000 to $49,999",12.5,9.8,31.2,57
+WY,Wyoming,Income (years 2004 and beyond),"$50,000 or more",8.9,7,26.6,66.5
+WY,Wyoming,Income (years 2004 and beyond),"Less than $10,000",22,13.3,23.5,48.9
+WY,Wyoming,Marital Status,MARRIED,10.6,8.7,23.4,56.1
+WY,Wyoming,Marital Status,OTHER,16.6,15.3,38,63.7
+WY,Wyoming,Maternal Age (3 Levels),20-29 yrs,10.6,10,32.2,61.3
+WY,Wyoming,Maternal Age (3 Levels),30+ yrs,13.5,10.6,22.3,58.2
+WY,Wyoming,Maternal Age (3 Levels),<20 yrs,24.7,19.5,19.7,37
+WY,Wyoming,Maternal Age (4 Levels),20-24 yrs,13.2,10,35.3,60.2
+WY,Wyoming,Maternal Age (4 Levels),25-34 yrs,11.7,10.4,26.1,59.9
+WY,Wyoming,Maternal Age (4 Levels),35+ yrs,5.6,9.5,25.2,62
+WY,Wyoming,Maternal Age (4 Levels),<20 yrs,24.7,19.5,19.7,37
+WY,Wyoming,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,15.3,11.7,32.3,55.8
+WY,Wyoming,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,9.6,9,29.2,63.3
+WY,Wyoming,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,13.2,12.4,20.6,55
+WY,Wyoming,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+WY,Wyoming,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+WY,Wyoming,Maternal Age - 18 to 44 years only,Age 18 - 44,12.4,10.8,28.1,58.7
+WY,Wyoming,Maternal Education,12 yrs,17.2,17.2,31.2,56.7
+WY,Wyoming,Maternal Education,< 12 yrs,13.2,4.6,22.5,43.1
+WY,Wyoming,Maternal Education,>12 yrs,11.3,9.7,28.5,62.5
+WY,Wyoming,Maternal Race/Ethnicity,"Black, non-Hispanic",,,,
+WY,Wyoming,Maternal Race/Ethnicity,Hispanic,6.8,5.5,10.6,36.3
+WY,Wyoming,Maternal Race/Ethnicity,Other non-Hispanic,10.4,9.8,28.1,50.1
+WY,Wyoming,Maternal Race/Ethnicity,"White, non-Hispanic",13.2,11.7,30.6,61.9
+WY,Wyoming,Medicaid Recipient,Medicaid,16.8,16.4,28.8,50.4
+WY,Wyoming,Medicaid Recipient,Non-Medicaid,9.5,6.8,27.7,64.4
+WY,Wyoming,Mother Hispanic,Hispanic,6.8,5.5,10.6,36.3
+WY,Wyoming,Mother Hispanic,Non-Hispanic,13.4,11.6,30.2,61.2
+WY,Wyoming,None,None,12.6,10.9,28.2,58.6
+WY,Wyoming,Number of Previous Live Births,0,12.9,12.5,33.7,66.6
+WY,Wyoming,Number of Previous Live Births,1 or more,12.3,9.8,24.6,53.4
+WY,Wyoming,On WIC during Pregnancy,Non-WIC,9.2,7.9,28.8,63.4
+WY,Wyoming,On WIC during Pregnancy,WIC,19.5,17,26.8,48.5
+WY,Wyoming,Pregnancy Intendedness,Intended,9.5,7,23.7,55.7
+WY,Wyoming,Pregnancy Intendedness,Unintended,17.3,16.5,35.9,63.2
+WY,Wyoming,Smoked 3 months before Pregnancy,Non-Smoker,9.3,6.4,22.5,54
+WY,Wyoming,Smoked 3 months before Pregnancy,Smoker,20.6,21.7,41.9,69.9
+WY,Wyoming,Smoked last 3 months of Pregnancy,Non-Smoker,10.3,8.3,27,57.9
+WY,Wyoming,Smoked last 3 months of Pregnancy,Smoker,25.2,25.1,34.8,63
+YC,New York City,Adequacy of Prenatal care,ADEQUATE PNC,,,14.5,42.7
+YC,New York City,Adequacy of Prenatal care,INADEQUATE PNC,,,22.8,46
+YC,New York City,Adequacy of Prenatal care,INTERMEDIATE PNC,,,14.4,37.7
+YC,New York City,Adequacy of Prenatal care,UNKNOWN PNC,,,,
+YC,New York City,Birth Weight,LBW (<=2500g),,,16.6,46.3
+YC,New York City,Birth Weight,NBW (>2500g),,,14.8,41.9
+YC,New York City,Income (years 2004 and beyond),"$10,000 to $24,999",,,7.6,26.2
+YC,New York City,Income (years 2004 and beyond),"$25,000 to $49,999",,,13.9,39.7
+YC,New York City,Income (years 2004 and beyond),"$50,000 or more",,,23.6,75.4
+YC,New York City,Income (years 2004 and beyond),"Less than $10,000",,,13.6,25.8
+YC,New York City,Marital Status,MARRIED,,,13.2,44.9
+YC,New York City,Marital Status,OTHER,,,17.4,38.7
+YC,New York City,Maternal Age (3 Levels),20-29 yrs,,,13.3,32.2
+YC,New York City,Maternal Age (3 Levels),30+ yrs,,,16.5,52.3
+YC,New York City,Maternal Age (3 Levels),<20 yrs,,,14.4,33.6
+YC,New York City,Maternal Age (4 Levels),20-24 yrs,,,14.7,29.3
+YC,New York City,Maternal Age (4 Levels),25-34 yrs,,,14.3,43.8
+YC,New York City,Maternal Age (4 Levels),35+ yrs,,,17,52
+YC,New York City,Maternal Age (4 Levels),<20 yrs,,,14.4,33.6
+YC,New York City,Maternal Age - 18 to 44 years in groupings,Age 18 - 24,,,15.3,29.9
+YC,New York City,Maternal Age - 18 to 44 years in groupings,Age 25 - 29,,,12.7,36.2
+YC,New York City,Maternal Age - 18 to 44 years in groupings,Age 30 - 44,,,17,53.4
+YC,New York City,Maternal Age - 18 to 44 years in groupings,Age 45+,,,,
+YC,New York City,Maternal Age - 18 to 44 years in groupings,Age < 18,,,,
+YC,New York City,Maternal Age - 18 to 44 years only,Age 18 - 44,,,15.2,42.4
+YC,New York City,Maternal Education,12 yrs,,,12.7,26.2
+YC,New York City,Maternal Education,< 12 yrs,,,6.8,19.1
+YC,New York City,Maternal Education,>12 yrs,,,18.7,56.6
+YC,New York City,Maternal Race/Ethnicity,"Black, non-Hispanic",,,15,40.3
+YC,New York City,Maternal Race/Ethnicity,Hispanic,,,15.5,35.3
+YC,New York City,Maternal Race/Ethnicity,Other non-Hispanic,,,12,32.5
+YC,New York City,Maternal Race/Ethnicity,"White, non-Hispanic",,,16.2,57
+YC,New York City,Medicaid Recipient,Medicaid,,,12.2,27
+YC,New York City,Medicaid Recipient,Non-Medicaid,,,18.8,63.4
+YC,New York City,Mother Hispanic,Hispanic,,,15.5,35.3
+YC,New York City,Mother Hispanic,Non-Hispanic,,,14.6,45
+YC,New York City,None,None,,,14.9,42.3
+YC,New York City,Number of Previous Live Births,0,,,19.8,51.5
+YC,New York City,Number of Previous Live Births,1 or more,,,10.4,33.7
+YC,New York City,On WIC during Pregnancy,Non-WIC,,,18.2,60.2
+YC,New York City,On WIC during Pregnancy,WIC,,,12.6,28.5
+YC,New York City,Pregnancy Intendedness,Intended,,,15,45.4
+YC,New York City,Pregnancy Intendedness,Unintended,,,15.7,37.9
+YC,New York City,Smoked 3 months before Pregnancy,Non-Smoker,,,12.5,38.4
+YC,New York City,Smoked 3 months before Pregnancy,Smoker,,,34.7,75.3
+YC,New York City,Smoked last 3 months of Pregnancy,Non-Smoker,,,14.8,42.1
+YC,New York City,Smoked last 3 months of Pregnancy,Smoker,,,20.9,54.9

@@ -70,11 +70,13 @@ This is a presentation project with minimal structure.
 
 | Date | File | Talk |
 |------|------|------|
-| Wed 10/7 | `2026-10-07-fundamentals-data-visualization.qmd` | Fundamentals of Data Visualization (seminar series, non-OHDSI, 60 min) |
+| Wed 10/7 | `2026-10-07-fundamentals-data-visualization.qmd` | Fundamentals of Data Visualization (ICTR seminar series, 60 min) |
 
 Shared styling: `assets/jhu.scss` (revealjs) and `functions/theme_jhu.R` (ggplot).
 Code is shown, never run: `_quarto.yml` sets `eval: false`. Shared images live in
-`images/shared/`. The BIDS bootcamp talks moved to `~/Projects/2026-bids-bootcamp`.
+`images/shared/`. Deck figures live in `images/fundamentals/`; `figures-notebook.qmd`
+(which sets `eval: true`) regenerates all of them from the CSVs in `data/`, which come
+from the course repo `erikwestlund/data-visualization-2026`.
 
 ### Rendering
 

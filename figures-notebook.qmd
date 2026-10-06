@@ -1,0 +1,611 @@
+---
+title: "Fundamentals of Data Visualization: Figures Notebook"
+author: "Erik Westlund"
+date: "2026-10-07"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-tools: true
+    embed-resources: true
+    fig-width: 10
+    fig-height: 5.6
+execute:
+  eval: true
+  echo: true
+  warning: false
+  message: false
+---
+
+This notebook makes every figure in the talk *Fundamentals of Data
+Visualization* and saves each one as a PNG in `images/fundamentals/`, where the
+slides read them from.
+
+The data come from the course repository
+[erikwestlund/data-visualization-2026](https://github.com/erikwestlund/data-visualization-2026).
+They are public data simplified for teaching (NHANES, PRAMS, CDC FluVaxView,
+and Leinhardt and Wasserman's infant mortality data). They are fine for
+illustrating figures but should not be used for research.
+
+```{r}
+#| label: setup
+library(framework)
+scaffold()
+
+library(patchwork)
+```
+
+```{r}
+#| label: save-figure
+image_dir <- "images/fundamentals"
+dir.create(image_dir, recursive = TRUE, showWarnings = FALSE)
+
+# Save a figure for the slides, at the size the slides expect
+save_figure <- function(plot, name, width = 10, height = 5.6) {
+  ggsave(file.path(image_dir, paste0(name, ".png")), plot,
+         width = width, height = height, dpi = 200, device = ragg::agg_png)
+  plot
+}
+```
+
+```{r}
+#| label: load-data
+nhanes <- data_read("data/nhanes_2021_2023_analysis.csv")
+prams <- data_read("data/prams_2011_selected.csv")
+countries <- data_read("data/infant_mortality_countries.csv")
+flu <- data_read("data/flu_vaccination_age_time_clean.csv")
+```
+
+# Principles
+
+These figures use small made-up numbers so each principle is easy to see.
+
+## Principle 1: Use a common scale
+
+```{r}
+#| label: principle-common-scale
+shares <- tibble(
+  drug = c("Drug A", "Drug B", "Drug C", "Drug D", "Drug E"),
+  pct = c(23, 21, 20, 19, 17)
+)
+
+pie <- ggplot(shares, aes(x = "", y = pct, fill = drug)) +
+  geom_col(width = 1, color = "white") +
+  coord_polar(theta = "y") +
+  scale_fill_manual(values = unname(unlist(jhu_colors[c(
+    "HopkinsBlue", "Blue", "BlueLight", "Teal", "Tan"
+  )]))) +
+  labs(title = "Which drug is used most?", fill = NULL) +
+  theme_void(base_family = "Tahoma") +
+  theme(plot.title = element_text(hjust = 0.5, face = "bold", size = 16))
+
+bars <- ggplot(shares, aes(x = pct, y = reorder(drug, pct))) +
+  geom_col(fill = jhu_colors$HopkinsBlue, width = 0.7) +
+  geom_text(aes(label = paste0(pct, "%")), hjust = -0.2, size = 5) +
+  scale_x_continuous(limits = c(0, 27), expand = c(0, 0)) +
+  labs(title = "Same data, common scale", x = "Share of users (%)", y = NULL) +
+  theme_jhu()
+
+save_figure(pie + bars, "principle-common-scale")
+```
+
+## Principle 2: Start bars at zero
+
+```{r}
+#| label: principle-honest-axis
+rates <- tibble(group = c("Clinic A", "Clinic B"), rate = c(10.4, 11.1))
+
+truncated <- ggplot(rates, aes(x = group, y = rate)) +
+  geom_col(fill = jhu_colors$Purple, width = 0.6) +
+  coord_cartesian(ylim = c(10, 11.2)) +
+  labs(title = "Axis starts at 10: a big gap?", x = NULL,
+       y = "Readmissions per 100 discharges") +
+  theme_jhu()
+
+full <- ggplot(rates, aes(x = group, y = rate)) +
+  geom_col(fill = jhu_colors$HopkinsBlue, width = 0.6) +
+  scale_y_continuous(limits = c(0, 12), expand = c(0, 0)) +
+  labs(title = "Axis starts at 0: about the same", x = NULL,
+       y = "Readmissions per 100 discharges") +
+  theme_jhu()
+
+save_figure(truncated + full, "principle-honest-axis")
+```
+
+## Principle 3: Order categories meaningfully
+
+```{r}
+#| label: principle-order
+conditions <- tibble(
+  condition = c("Anemia", "Asthma", "Depression", "Diabetes", "GERD",
+                "Hyperlipidemia", "Hypertension", "Osteoarthritis"),
+  pct = c(6, 9, 14, 11, 8, 22, 31, 18)
+)
+
+alphabetical <- ggplot(conditions, aes(x = pct, y = factor(condition, levels = rev(sort(condition))))) +
+  geom_col(fill = jhu_colors$Gray3, width = 0.7) +
+  labs(title = "Alphabetical order", x = "Prevalence (%)", y = NULL) +
+  theme_jhu()
+
+sorted <- ggplot(conditions, aes(x = pct, y = reorder(condition, pct))) +
+  geom_col(fill = jhu_colors$HopkinsBlue, width = 0.7) +
+  labs(title = "Sorted by value", x = "Prevalence (%)", y = NULL) +
+  theme_jhu()
+
+save_figure(alphabetical + sorted, "principle-order")
+```
+
+## Principle 4: Label directly
+
+```{r}
+#| label: principle-direct-labels
+drug_colors_4 <- c(
+  "Drug A" = jhu_colors$HopkinsBlue, "Drug B" = jhu_colors$BlueLight,
+  "Drug C" = jhu_colors$Purple, "Drug D" = jhu_colors$Green
+)
+
+uptake <- expand_grid(drug = names(drug_colors_4), year = 2016:2024) |>
+  mutate(users = case_when(
+    drug == "Drug A" ~ 900 - 40 * (year - 2016),
+    drug == "Drug B" ~ 300 + 70 * (year - 2016),
+    drug == "Drug C" ~ 600 + 10 * (year - 2016),
+    drug == "Drug D" ~ 150 + 25 * (year - 2016)
+  ))
+
+with_legend <- ggplot(uptake, aes(x = year, y = users, color = drug)) +
+  geom_line(linewidth = 1.1) +
+  scale_color_manual(values = drug_colors_4) +
+  expand_limits(y = 0) +
+  labs(title = "Legend", x = NULL, y = "New users", color = NULL) +
+  theme_jhu() +
+  theme(legend.position = "right")
+
+with_labels <- ggplot(uptake, aes(x = year, y = users, color = drug)) +
+  geom_line(linewidth = 1.1) +
+  geom_text(data = filter(uptake, year == max(year)),
+            aes(label = drug), hjust = -0.15, size = 4.5, fontface = "bold") +
+  scale_color_manual(values = drug_colors_4, guide = "none") +
+  scale_x_continuous(limits = c(2016, 2026), breaks = seq(2016, 2024, 2)) +
+  expand_limits(y = 0) +
+  labs(title = "Labels on the lines", x = NULL, y = "New users") +
+  theme_jhu()
+
+save_figure(with_legend + with_labels, "principle-direct-labels")
+```
+
+## Principle 5: Use small multiples
+
+```{r}
+#| label: principle-small-multiples
+set.seed(20261007)
+sites <- paste("Site", LETTERS[1:6])
+monthly <- expand_grid(site = sites, month = 1:36) |>
+  mutate(
+    base = c(4, 6, 5, 3, 7, 5)[match(site, sites)],
+    trend = c(0.02, -0.03, 0, 0.05, -0.01, 0)[match(site, sites)],
+    jump = if_else(site == "Site E" & month >= 18, -3, 0),
+    rate = base + trend * month + jump + rnorm(n(), 0, 0.35)
+  )
+
+site_colors <- setNames(
+  unname(unlist(jhu_colors[c("HopkinsBlue", "BlueLight", "Purple", "Green", "Tan", "Gray3")])),
+  sites
+)
+
+tangled <- ggplot(monthly, aes(x = month, y = rate, color = site)) +
+  geom_line(linewidth = 0.8) +
+  scale_color_manual(values = site_colors) +
+  expand_limits(y = 0) +
+  labs(title = "One panel", x = "Month", y = "Per 1,000 patients", color = NULL) +
+  theme_jhu() +
+  theme(legend.position = "bottom", legend.text = element_text(size = 8))
+
+multiples <- ggplot(monthly, aes(x = month, y = rate)) +
+  geom_line(color = jhu_colors$HopkinsBlue, linewidth = 0.8) +
+  facet_wrap(~site, ncol = 3) +
+  expand_limits(y = 0) +
+  labs(title = "One panel per site", x = "Month", y = "Per 1,000 patients") +
+  theme_jhu() +
+  theme(strip.text = element_text(size = 10, face = "bold"))
+
+save_figure(tangled + multiples, "principle-small-multiples")
+```
+
+## Principle 6: Use color to highlight
+
+```{r}
+#| label: principle-highlight
+enrollment <- tibble(
+  site = c("Hopkins", paste("Site", LETTERS[1:7])),
+  enrolled = c(420, 810, 650, 590, 380, 310, 240, 170)
+)
+
+rainbow <- ggplot(enrollment, aes(x = enrolled, y = reorder(site, enrolled), fill = site)) +
+  geom_col(width = 0.7) +
+  scale_fill_manual(values = unname(unlist(jhu_colors[c(
+    "HopkinsBlue", "Blue", "BlueLight", "Purple", "LightPurple", "Teal", "Green", "Tan"
+  )])), guide = "none") +
+  labs(title = "A color for every bar", x = "Participants enrolled", y = NULL) +
+  theme_jhu()
+
+highlight <- ggplot(enrollment, aes(x = enrolled, y = reorder(site, enrolled),
+                                    fill = site == "Hopkins")) +
+  geom_col(width = 0.7) +
+  scale_fill_manual(values = c(`TRUE` = jhu_colors$HopkinsBlue, `FALSE` = jhu_colors$Gray1),
+                    guide = "none") +
+  labs(title = "Color only for Hopkins", x = "Participants enrolled", y = NULL) +
+  theme_jhu()
+
+save_figure(rainbow + highlight, "principle-highlight")
+```
+
+## Principle 7: State the finding in the title
+
+```{r}
+#| label: principle-title
+bleeds <- tibble(drug = c("Drug A", "Drug B", "Drug C"), rate = c(4.1, 8.3, 4.6))
+
+bleed_bars <- function(title) {
+  ggplot(bleeds, aes(x = drug, y = rate)) +
+    geom_col(fill = if_else(bleeds$drug == "Drug B", jhu_colors$Purple, jhu_colors$Gray2),
+             width = 0.6) +
+    scale_y_continuous(limits = c(0, 10), expand = c(0, 0)) +
+    labs(title = title, x = NULL, y = "GI bleeds per 1,000 person-years") +
+    theme_jhu() +
+    theme(plot.title = element_text(size = 14))
+}
+
+save_figure(bleed_bars("GI bleed rate by drug") + bleed_bars("Drug B users bleed about twice as often"),
+            "principle-title")
+```
+
+# Workhorses
+
+Workhorses use `theme_minimal()` defaults and short labels. They are the
+figures you make while exploring.
+
+```{r}
+#| label: workhorse-data
+# Adults with a blood pressure reading
+adult_bp <- nhanes |>
+  filter(age_years >= 18, !is.na(systolic_mean))
+
+# Everyone with at least one dietary recall
+diet <- nhanes |>
+  filter(!is.na(mean_daily_energy_kcal), mean_daily_energy_kcal > 0)
+```
+
+## Histogram
+
+```{r}
+#| label: histogram
+histogram <- ggplot(adult_bp, aes(x = systolic_mean)) +
+  geom_histogram(binwidth = 5) +
+  labs(x = "Systolic blood pressure (mmHg)", y = "Adults")
+
+save_figure(histogram, "histogram")
+```
+
+## Bin width
+
+```{r}
+#| label: histogram-binwidth
+bin_plot <- function(binwidth) {
+  ggplot(adult_bp, aes(x = systolic_mean)) +
+    geom_histogram(binwidth = binwidth) +
+    labs(title = paste("binwidth =", binwidth),
+         x = "Systolic blood pressure (mmHg)", y = "Adults")
+}
+
+save_figure(bin_plot(1) + bin_plot(5) + bin_plot(25), "histogram-binwidth", height = 4.2)
+```
+
+## Box plot
+
+```{r}
+#| label: boxplot
+boxplot <- ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
+  geom_boxplot() +
+  labs(x = "Age group", y = "Daily energy intake (kcal)")
+
+save_figure(boxplot, "boxplot")
+```
+
+## Box plot with the data
+
+```{r}
+#| label: boxplot-points
+boxplot_points <- ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
+  geom_jitter(width = 0.2, alpha = 0.15, size = 0.6) +
+  geom_boxplot(outlier.shape = NA, fill = NA, color = "firebrick", linewidth = 0.7) +
+  labs(x = "Age group", y = "Daily energy intake (kcal)")
+
+save_figure(boxplot_points, "boxplot-points")
+```
+
+## Violin plot
+
+```{r}
+#| label: violin
+violin <- ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
+  geom_violin() +
+  labs(x = "Age group", y = "Daily energy intake (kcal)")
+
+save_figure(violin, "violin")
+```
+
+## Violin plot with a box plot
+
+```{r}
+#| label: violin-boxplot
+violin_boxplot <- ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
+  geom_violin(fill = "gray90") +
+  geom_boxplot(width = 0.12, outlier.shape = NA) +
+  labs(x = "Age group", y = "Daily energy intake (kcal)")
+
+save_figure(violin_boxplot, "violin-boxplot")
+```
+
+# Show ponies
+
+Each show pony starts from a workhorse. Same data, same geoms, then polish.
+
+## Blood pressure by age
+
+```{r}
+#| label: bp-workhorse
+bp_workhorse <- ggplot(adult_bp, aes(x = age_group, y = systolic_mean)) +
+  geom_boxplot() +
+  labs(x = "Age group", y = "Systolic blood pressure (mmHg)")
+
+save_figure(bp_workhorse, "bp-workhorse")
+```
+
+```{r}
+#| label: bp-show-pony
+# Share of each age group at or above 130 mmHg, the stage 1 hypertension threshold
+bp_summary <- adult_bp |>
+  group_by(age_group) |>
+  summarize(n = n(), pct_130 = mean(systolic_mean >= 130)) |>
+  mutate(
+    axis_label = paste0(age_group, "\n(n = ", scales::comma(n), ")"),
+    pct_label = scales::percent(pct_130, accuracy = 1)
+  )
+
+bp_show_pony <- ggplot(adult_bp, aes(x = age_group, y = systolic_mean)) +
+  geom_hline(yintercept = 130, color = jhu_colors$Purple, linetype = "dashed") +
+  geom_boxplot(fill = jhu_colors$PaleBlue, color = jhu_colors$HopkinsBlue,
+               outlier.color = jhu_colors$Gray2, outlier.size = 0.8, width = 0.6) +
+  geom_text(data = bp_summary, aes(y = 225, label = pct_label),
+            color = jhu_colors$Purple, fontface = "bold", size = 5) +
+  annotate("text", x = 0.5, y = 238, label = "Share at or above 130 mmHg", hjust = 0,
+           color = jhu_colors$Purple, size = 3.8) +
+  annotate("text", x = 0.45, y = 131, label = "130 mmHg", hjust = 0, vjust = -0.5,
+           color = jhu_colors$Purple, size = 3.5) +
+  scale_x_discrete(labels = bp_summary$axis_label) +
+  scale_y_continuous(limits = c(70, 240), breaks = seq(80, 220, 20)) +
+  labs(
+    title = "Systolic blood pressure rises with age",
+    subtitle = "More than half of adults 80 and older are at or above 130 mmHg",
+    x = "Age group", y = "Systolic blood pressure (mmHg)",
+    caption = "Data: NHANES 2021-2023, adults with a blood pressure reading. Unweighted."
+  ) +
+  theme_jhu() +
+  theme(panel.grid.major.x = element_blank())
+
+save_figure(bp_show_pony, "bp-show-pony")
+```
+
+## Postpartum depression and anxiety
+
+PRAMS state estimates are percentages for all respondents in the state.
+
+```{r}
+#| label: prams-data
+mental_health <- prams |>
+  filter(
+    subgroup_cat == "None",
+    !is.na(depression_within_3_months_birth),
+    !is.na(anxiety_within_3_months_birth)
+  ) |>
+  transmute(
+    location,
+    depression = depression_within_3_months_birth,
+    anxiety = anxiety_within_3_months_birth,
+    difference = anxiety - depression
+  )
+
+mental_health_long <- mental_health |>
+  pivot_longer(c(depression, anxiety), names_to = "measure", values_to = "estimate") |>
+  mutate(measure = str_to_title(measure))
+```
+
+```{r}
+#| label: prams-workhorse
+prams_workhorse <- ggplot(mental_health_long, aes(x = estimate, y = location, color = measure)) +
+  geom_point(size = 3) +
+  labs(x = "Estimate (%)", y = NULL, color = NULL)
+
+save_figure(prams_workhorse, "prams-workhorse")
+```
+
+```{r}
+#| label: prams-show-pony
+measure_colors <- c(Depression = jhu_colors$Gray3, Anxiety = jhu_colors$HopkinsBlue)
+
+n_higher <- sum(mental_health$difference > 0)
+
+# Sort states by the gap, largest at the top
+state_order <- mental_health |>
+  arrange(difference) |>
+  pull(location)
+
+prams_sorted <- mental_health |>
+  mutate(location = factor(location, levels = state_order))
+
+prams_points <- mental_health_long |>
+  mutate(location = factor(location, levels = state_order))
+
+top_row <- prams_points |>
+  filter(location == last(state_order))
+
+prams_show_pony <- ggplot(prams_sorted, aes(y = location)) +
+  geom_segment(aes(x = depression, xend = anxiety, yend = location),
+               color = jhu_colors$Gray2, linewidth = 1.2) +
+  geom_point(data = prams_points, aes(x = estimate, color = measure), size = 4) +
+  geom_text(data = top_row, aes(x = estimate, label = measure, color = measure),
+            vjust = -1.1, fontface = "bold", size = 4.2) +
+  geom_text(aes(x = pmax(depression, anxiety) + 0.6,
+                label = sprintf("%+.1f", difference)),
+            hjust = 0, size = 3.6, color = jhu_colors$Gray4) +
+  scale_color_manual(values = measure_colors, guide = "none") +
+  scale_x_continuous(limits = c(3, 18.5), breaks = seq(4, 18, 2)) +
+  scale_y_discrete(expand = expansion(add = c(0.6, 1.2))) +
+  labs(
+    title = paste("Anxiety was reported slightly more often than depression in",
+                  n_higher, "of", nrow(mental_health), "states"),
+    subtitle = "Percent of new mothers reporting symptoms after birth; number is the gap in points",
+    x = "Percent of new mothers", y = NULL,
+    caption = "Data: CDC PRAMS 2011, states with both estimates. No confidence intervals shown."
+  ) +
+  theme_jhu() +
+  theme(plot.title = element_text(size = 15), panel.grid.major.y = element_blank())
+
+save_figure(prams_show_pony, "prams-show-pony")
+```
+
+## Income and infant mortality
+
+Leinhardt and Wasserman's data on 105 countries, around 1970.
+
+```{r}
+#| label: countries-data
+infant <- countries |>
+  filter(!is.na(infant_mortality_per_1000), !is.na(income_usd_per_capita)) |>
+  mutate(
+    country = str_replace_all(country_name, "\\.", " "),
+    country = if_else(country == "Afganistan", "Afghanistan", country)
+  )
+```
+
+```{r}
+#| label: countries-workhorse
+countries_workhorse <- ggplot(infant, aes(x = income_usd_per_capita, y = infant_mortality_per_1000,
+                                          color = region)) +
+  geom_point() +
+  labs(x = "Income per person (USD)", y = "Infant deaths per 1,000 live births", color = NULL)
+
+save_figure(countries_workhorse, "countries-workhorse")
+```
+
+```{r}
+#| label: countries-show-pony
+oil_labels <- infant |>
+  filter(country %in% c("Saudi Arabia", "Libya"))
+
+other_labels <- infant |>
+  filter(country %in% c("Afghanistan", "United States", "Sweden"))
+
+countries_show_pony <- ggplot(infant, aes(x = income_usd_per_capita, y = infant_mortality_per_1000)) +
+  geom_smooth(data = filter(infant, !oil_exporter), method = "loess", se = FALSE,
+              color = jhu_colors$Gray2, linewidth = 1) +
+  geom_point(aes(color = oil_exporter), size = 2.6, alpha = 0.85) +
+  ggrepel::geom_text_repel(data = oil_labels, aes(label = country), color = jhu_colors$Purple,
+                           fontface = "bold", size = 4.2, seed = 1, min.segment.length = 0) +
+  ggrepel::geom_text_repel(data = other_labels, aes(label = country), color = jhu_colors$Gray4,
+                           size = 3.8, seed = 1, min.segment.length = 0) +
+  scale_color_manual(values = c(`TRUE` = jhu_colors$Purple, `FALSE` = jhu_colors$HopkinsBlue),
+                     labels = c(`TRUE` = "Oil exporter", `FALSE` = "Other country"),
+                     name = NULL) +
+  scale_x_log10(breaks = c(50, 100, 300, 1000, 3000, 6000),
+                labels = scales::label_dollar(accuracy = 1)) +
+  labs(
+    title = "Infant mortality falls as income rises, except in two oil states",
+    subtitle = "105 countries, around 1970. Line is a smoother fit to the non-oil countries.",
+    x = "Income per person (USD, log scale)", y = "Infant deaths per 1,000 live births",
+    caption = "Data: Leinhardt and Wasserman (1979), via John Fox's Applied Regression data archive"
+  ) +
+  theme_jhu() +
+  theme(legend.position = c(0.88, 0.85), legend.text = element_text(size = 11))
+
+save_figure(countries_show_pony, "countries-show-pony")
+```
+
+## Flu vaccination over time
+
+CDC FluVaxView coverage for the United States, measured in May of each
+season.
+
+```{r}
+#| label: flu-data
+age_levels <- c("6 Months - 4 Years", "5-12 Years", "13-17 Years",
+                "18-49 Years", "50-64 Years", ">=65 Years")
+age_labels <- c("6 months-4 years", "5-12 years", "13-17 years",
+                "18-49 years", "50-64 years", "65 and older")
+
+flu_us <- flu |>
+  filter(geography == "United States", month == 5, !is.na(estimate)) |>
+  mutate(age_group = factor(age_group, levels = age_levels, labels = age_labels))
+```
+
+```{r}
+#| label: flu-workhorse
+flu_workhorse <- ggplot(flu_us, aes(x = season_start_year, y = estimate, color = age_group)) +
+  geom_line() +
+  geom_point() +
+  labs(x = "Season", y = "Vaccinated (%)", color = NULL)
+
+save_figure(flu_workhorse, "flu-workhorse")
+```
+
+```{r}
+#| label: flu-show-pony
+focus <- "6 months-4 years"
+
+flu_ends <- flu_us |>
+  group_by(age_group) |>
+  filter(season_start_year == max(season_start_year)) |>
+  ungroup() |>
+  # Nudge two labels that end at nearly the same value
+  mutate(label_y = estimate + case_when(
+    age_group == "13-17 years" ~ 1.6,
+    age_group == "50-64 years" ~ -1.6,
+    .default = 0
+  ))
+
+peak <- flu_us |>
+  filter(age_group == focus) |>
+  filter(estimate == max(estimate))
+
+flu_show_pony <- ggplot(flu_us, aes(x = season_start_year, y = estimate, group = age_group)) +
+  annotate("rect", xmin = 2019.5, xmax = 2023.3, ymin = -Inf, ymax = Inf,
+           fill = jhu_colors$Gray1, alpha = 0.5) +
+  annotate("text", x = 2019.65, y = 4, label = "COVID-19 pandemic", hjust = 0,
+           color = jhu_colors$Gray3, size = 3.6) +
+  geom_line(data = filter(flu_us, age_group != focus), color = jhu_colors$Gray2, linewidth = 0.9) +
+  geom_line(data = filter(flu_us, age_group == focus), color = jhu_colors$HopkinsBlue, linewidth = 1.6) +
+  geom_point(data = peak, color = jhu_colors$HopkinsBlue, size = 3) +
+  annotate("text", x = peak$season_start_year, y = peak$estimate + 4,
+           label = paste0(peak$estimate, "%"), color = jhu_colors$HopkinsBlue,
+           fontface = "bold", size = 4) +
+  geom_text(data = flu_ends, aes(y = label_y, label = age_group, color = age_group == focus),
+            fontface = if_else(flu_ends$age_group == focus, "bold", "plain"),
+            hjust = 0, nudge_x = 0.25, size = 3.8) +
+  scale_color_manual(values = c(`TRUE` = jhu_colors$HopkinsBlue, `FALSE` = jhu_colors$Gray3),
+                     guide = "none") +
+  scale_x_continuous(breaks = seq(2010, 2022, 2),
+                     labels = \(x) paste0(x, "-", substr(x + 1, 3, 4)),
+                     expand = expansion(add = c(0.3, 3.2))) +
+  scale_y_continuous(limits = c(0, 82), breaks = seq(0, 80, 20),
+                     labels = \(x) paste0(x, "%")) +
+  labs(
+    title = "Flu vaccination in young children has fallen since 2019-20",
+    subtitle = "Share vaccinated by May of each flu season, United States",
+    x = "Flu season", y = NULL,
+    caption = "Data: CDC FluVaxView"
+  ) +
+  theme_jhu() +
+  theme(panel.grid.major.x = element_blank())
+
+save_figure(flu_show_pony, "flu-show-pony")
+```
