@@ -119,7 +119,7 @@ mean_plot <- function(title) {
 }
 
 truncated_bars <- mean_plot("Bars, axis starts at 105") +
-  geom_col(fill = jhu_colors$Purple, width = 0.6) +
+  geom_col(fill = jhu_colors$Red, width = 0.6) +
   coord_cartesian(xlim = c(105, 140)) +
   scale_x_continuous(expand = c(0, 0))
 
@@ -163,7 +163,7 @@ save_figure(alphabetical + sorted, "principle-order")
 #| label: principle-direct-labels
 drug_colors_4 <- c(
   "Drug A" = jhu_colors$HopkinsBlue, "Drug B" = jhu_colors$BlueLight,
-  "Drug C" = jhu_colors$Purple, "Drug D" = jhu_colors$Green
+  "Drug C" = jhu_colors$Red, "Drug D" = jhu_colors$Green
 )
 
 uptake <- expand_grid(drug = names(drug_colors_4), year = 2016:2024) |>
@@ -210,7 +210,7 @@ monthly <- expand_grid(site = sites, month = 1:36) |>
   )
 
 site_colors <- setNames(
-  unname(unlist(jhu_colors[c("HopkinsBlue", "BlueLight", "Purple", "Green", "Tan", "Gray3")])),
+  unname(unlist(jhu_colors[c("HopkinsBlue", "BlueLight", "Red", "Green", "Tan", "Gray3")])),
   sites
 )
 
@@ -270,11 +270,11 @@ annotated <- headache_plot("With annotation") +
            size = 4.2, color = jhu_colors$Gray4) +
   geom_segment(data = period_means,
                aes(x = start, xend = end, y = mean, yend = mean),
-               inherit.aes = FALSE, color = jhu_colors$Purple, linewidth = 1) +
+               inherit.aes = FALSE, color = jhu_colors$Red, linewidth = 1) +
   geom_text(data = period_means,
             aes(x = (start + end) / 2, y = 22,
                 label = paste0("Average ", round(mean), "%")),
-            inherit.aes = FALSE, color = jhu_colors$Purple, fontface = "bold", size = 4.2)
+            inherit.aes = FALSE, color = jhu_colors$Red, fontface = "bold", size = 4.2)
 
 save_figure(plain + annotated, "principle-annotation")
 ```
@@ -291,7 +291,7 @@ enrollment <- tibble(
 rainbow <- ggplot(enrollment, aes(x = enrolled, y = reorder(site, enrolled), fill = site)) +
   geom_col(width = 0.7) +
   scale_fill_manual(values = unname(unlist(jhu_colors[c(
-    "HopkinsBlue", "Blue", "BlueLight", "Purple", "LightPurple", "Teal", "Green", "Tan"
+    "HopkinsBlue", "Blue", "BlueLight", "Red", "LightPurple", "Teal", "Green", "Tan"
   )])), guide = "none") +
   labs(title = "A color for every bar", x = "Participants enrolled", y = NULL) +
   theme_jhu()
@@ -468,15 +468,15 @@ bp_summary <- adult_bp |>
   )
 
 bp_show_pony <- ggplot(adult_bp, aes(x = age_group, y = systolic_mean)) +
-  geom_hline(yintercept = 130, color = jhu_colors$Purple, linetype = "dashed") +
+  geom_hline(yintercept = 130, color = jhu_colors$Red, linetype = "dashed") +
   geom_boxplot(fill = jhu_colors$PaleBlue, color = jhu_colors$HopkinsBlue,
                outlier.color = jhu_colors$Gray2, outlier.size = 0.8, width = 0.6) +
   geom_text(data = bp_summary, aes(y = 225, label = pct_label),
-            color = jhu_colors$Purple, fontface = "bold", size = 5) +
+            color = jhu_colors$Red, fontface = "bold", size = 5) +
   annotate("text", x = 0.5, y = 238, label = "Share at or above 130 mmHg", hjust = 0,
-           color = jhu_colors$Purple, size = 3.8) +
+           color = jhu_colors$Red, size = 3.8) +
   annotate("text", x = 0.45, y = 131, label = "130 mmHg", hjust = 0, vjust = -0.5,
-           color = jhu_colors$Purple, size = 3.5) +
+           color = jhu_colors$Red, size = 3.5) +
   scale_x_discrete(labels = bp_summary$axis_label) +
   scale_y_continuous(limits = c(70, 240), breaks = seq(80, 220, 20)) +
   labs(
@@ -605,11 +605,11 @@ countries_show_pony <- ggplot(infant, aes(x = income_usd_per_capita, y = infant_
   geom_smooth(data = filter(infant, !oil_exporter), method = "loess", se = FALSE,
               color = jhu_colors$Gray2, linewidth = 1) +
   geom_point(aes(color = oil_exporter), size = 2.6, alpha = 0.85) +
-  ggrepel::geom_text_repel(data = oil_labels, aes(label = country), color = jhu_colors$Purple,
+  ggrepel::geom_text_repel(data = oil_labels, aes(label = country), color = jhu_colors$Red,
                            fontface = "bold", size = 4.2, seed = 1, min.segment.length = 0) +
   ggrepel::geom_text_repel(data = other_labels, aes(label = country), color = jhu_colors$Gray4,
                            size = 3.8, seed = 1, min.segment.length = 0) +
-  scale_color_manual(values = c(`TRUE` = jhu_colors$Purple, `FALSE` = jhu_colors$HopkinsBlue),
+  scale_color_manual(values = c(`TRUE` = jhu_colors$Red, `FALSE` = jhu_colors$HopkinsBlue),
                      labels = c(`TRUE` = "Oil exporter", `FALSE` = "Other country"),
                      name = NULL) +
   scale_x_log10(breaks = c(50, 100, 300, 1000, 3000, 6000),

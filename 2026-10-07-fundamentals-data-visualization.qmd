@@ -1,6 +1,5 @@
 ---
 title: "Fundamentals of Data Visualization"
-subtitle: "Workhorses, show ponies, and unicorns"
 author: "Erik Westlund"
 date: "2026-10-07"
 footer: "Fundamentals of Data Visualization"

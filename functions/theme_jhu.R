@@ -15,7 +15,8 @@ jhu_colors <- list(
   "Gray4" = "#4A484C",
   "Gray5" = "#2C2C33",
   "Teal" = "#6399AE",
-  "Green" = "#007A53"
+  "Green" = "#007A53",
+  "Red" = "#CF4520"
 )
 
 theme_jhu <- function() {
