@@ -20,7 +20,7 @@ scaffold()
 
 - Data scientist, Johns Hopkins Biostatistics Center, Department of Biostatistics
 - Trained in the social sciences; 10+ years as a data scientist and software developer
-- I teach data visualization and help run clinical and observational studies
+- I teach data visualization and provide statistical consulting, data management, and software engineering services for the Johns Hopkins Biostatatistics Center (JHBC)
 - ewestlund@jhu.edu
 
 ## Today's Plan
@@ -36,7 +36,7 @@ No programming background is assumed. The examples use R's `ggplot2`, but the id
 
 # Graphical Excellence
 
-## Graphical Excellence
+## What Is Graphical Excellence?
 
 ::: {.columns}
 ::: {.column width="40%"}
@@ -92,11 +92,48 @@ No programming background is assumed. The examples use R's `ggplot2`, but the id
 :::
 :::
 
+## In Summary
+
+- We aim for high information, easy to understand, and visually appealing graphics
+- We also aim to be honest and scientifically accurate; data visualizations are only as good as the science that created the data
+
+
+# Exploratory and Explanatory Figures
+
+## Exploratory and Explanatory Figures
+
+- Data visualization is an essential part of exploring and understanding data
+- It is also an essential part of communicating scientific findings
+
+::: {.columns}
+::: {.column width="50%"}
+### Exploratory
+
+- Semi-private: For **you and your team**
+- Goal: Understand the data
+- "Quick and dirty"
+- Little polish
+:::
+
+::: {.column width="50%"}
+### Explanatory
+
+- For **your scientific audience**
+- Goal: Communicate results
+- Slow and clean
+- A lot of polish: focus on labels and annotation
+:::
+:::
+
+. . .
+
+Both tyeps of visualization must be **accurate** and **statistically sound**.
+
 # Workhorses, Show Ponies, and Unicorns
 
 ## Workhorses and Show Ponies
 
-Kieran Healy describes two kinds of everyday figures:
+Kieran Healy describes two kinds of visualizations:
 
 - **Workhorse:** a simple, accurate graph that shows the main features of the data
 - **Show pony:** a workhorse polished for an audience
@@ -107,11 +144,24 @@ Kieran Healy describes two kinds of everyday figures:
 
 *Kieran Healy, [Data Visualization: A Practical Introduction](https://socviz.co/08-polishing.html), chapter 8*
 
+## Workhorses and Shoe Ponies (cont.)
+
+We typically use:
+
+- Workhorses for our exploratory work
+- Show ponies for communication
+
+## Workponies? Showhorses?
+
+- Understanding and communication are not completely separable.
+- The same figure can help us discover a pattern, refine our thinking, and explain the result to someone else.
+- A workhorse may go straight into a supplement or a lab meeting or it may become a central figure in a study.
+
 ## Unicorns
 
 A third kind, the **unicorn**, is a one-off creation such as Minard's map of Napoleon's march.
 
-Unicorns are hard to produce, and everyday work does not need them.
+Unicorns are hard to produce and most of us will never have any reason to try to create one.
 
 ## A Unicorn: Minard's Map of Napoleon's March
 
@@ -132,9 +182,9 @@ The map shows six variables at once:
 
 . . .
 
-The army set out with about 422,000 men. About 10,000 returned.
+The army set out with about 422,000 men and return with 10,000.
 
-## Achieving Graphical Excellence
+## Unicorns $\neq$ Systematic
 
 > "[Minard's classic image] can be described and admired, but there are no compositional principles on how to create that one wonder graphic in a million."
 
@@ -142,7 +192,7 @@ The army set out with about 422,000 men. About 10,000 returned.
 
 ## Recreating Minard with Matplotlib
 
-Someone has done a pretty impressive job recreating this visualization using Python's matplotlib library. It starts with Minard's data:
+The computer can do what the hand can do. Amit Amola recreated this visualization using Python's `matplotlib` library and Minard's data:
 
 ![](images/shared/napoleons-march-data.webp){fig-align="center" height="350"}
 
@@ -167,39 +217,6 @@ Tufte's examples are extraordinary, but most of our work is more routine. Tufte 
 - Show enough complexity to be useful.
 - Avoid decoration that does not help the argument.
 
-# Exploratory and Explanatory Figures
-
-## Exploratory and Explanatory Figures
-
-::: {.columns}
-::: {.column width="50%"}
-### Exploratory
-
-- For **you**
-- Understand the data
-- Fast, rough, and many
-- No polish
-:::
-
-::: {.column width="50%"}
-### Explanatory
-
-- For **someone else**
-- Communicate a result
-- Few and careful
-- Labels, annotation, and polish
-:::
-:::
-
-. . .
-
-Both kinds must represent the data accurately.
-
-## Exploratory Work and Workhorses
-
-- Exploratory work is mostly done with workhorses. They are quick to make, and default settings are usually fine.
-- Explanatory work calls for show ponies. A show pony usually starts as the workhorse that showed you the result.
-
 ## Visualization As An Analytic Tool
 
 Visualization is a crucial part of understanding data from the start of an analysis. It shows:
@@ -209,13 +226,6 @@ Visualization is a crucial part of understanding data from the start of an analy
 - patterns
 - anomalies
 - relationships
-
-## These Goals Overlap
-
-- Understanding and communication are not completely separable.
-- The same figure can help us discover a pattern, refine our thinking, and explain the result to someone else.
-- A workhorse may go straight into a supplement or a lab meeting.
-- Journals often redraw figures, so a clean workhorse may be all a manuscript needs.
 
 ## Visualization Is Iterative
 
@@ -228,19 +238,51 @@ Good visualization usually moves in cycles:
 5. Revise the plot
 6. Share or revise the result for an audience
 
+
+## The `gg` in `ggplot2`: The Grammar of Graphics
+
+The most powerful visualization library that exists is `ggplot2`. It is so good because it is built upon a solid theoretical foundation provided by "the grammar of graphics," conceputalized by Leland Wilkinson.
+
+. . .
+
+| Component | Meaning | Example |
+|---|---|---|
+| **Data** | The table you plot | One row per survey participant |
+| **Aesthetics** | Mapping of variables to visual properties | x = age group, y = blood pressure |
+| **Geoms** | The marks | Bars, boxes, violins, points, lines |
+| **Facets** | Small multiples | One panel per group |
+| **Scales and theme** | Axes, colors, and styling | Log scale; `theme_minimal()` |
+
+
+## `ggplot2`
+
+
+::: {.columns}
+::: {.column width="30%"}
+![](images/shared/ggplot2.png){fig-align="center" height="300"}
+:::
+
+::: {.column width="70%"}
+- An R package for making figures from data
+- Based on the grammar of graphics (Wilkinson, 2005) and written by Hadley Wickham
+- A figure is built from layers, added one at a time with `+`
+- Every figure in this talk was made with ggplot2
+- Every statistical programming language has feature and libraries that can make high quality visualizations (almost as good at `ggplot2`)
+:::
+:::
 # Visualization Principles
 
-## Principle 1: Use a Common Scale
+## Principle 1: Use Position On a Common Scale
 
 ![](images/fundamentals/principle-common-scale.png){fig-align="center" height="400"}
 
 People judge **position along a common scale** more accurately than angle, area, or color.
 
-## Principle 2: Start Bars at Zero
+## Principle 2: Pick the Right Chart for Your Data
 
-![](images/fundamentals/principle-honest-axis.png){fig-align="center" height="400"}
+![](images/fundamentals/principle-right-chart.png){fig-align="center" height="380"}
 
-Bars encode values as **length**, so the axis should typically start at 0. Dot plots work better when you have good reason not to start at 0 (e.g., comparing means across groups).
+Bars encode values as **length**, so the axis should typically start at 0. A truncated axis makes small differences look large. For means, use a dot plot. A dot encodes its value by **position**, so the axis can zoom in and confidence intervals fit naturally.
 
 ## Principle 3: Order Categories Meaningfully
 
@@ -248,17 +290,21 @@ Bars encode values as **length**, so the axis should typically start at 0. Dot p
 
 Sort categories by value unless they have a natural order, such as age groups or calendar years.
 
-## Principle 4: Label Directly
-
-![](images/fundamentals/principle-direct-labels.png){fig-align="center" height="400"}
-
-Labels next to the data remove the need to match colors against a legend.
-
-## Principle 5: Use Small Multiples
+## Principle 4: Facet By Small Multiples
 
 ![](images/fundamentals/principle-small-multiples.png){fig-align="center" height="400"}
 
 Separate panels on a common scale often make each series readable. The drop in Site E is easier to see in its own panel.
+
+## Principle 5: Use Text Annotations to Highlight
+
+![](images/fundamentals/principle-annotation.png){fig-align="center" height="350"}
+
+A short note tells the reader where to look. Here the annotations mark when treatment started and show that headache days barely changed (64% before, 63% after).
+
+::: {.source}
+Migraine diaries from 133 people (Kostecki-Dillon, Monette, and Wong).
+:::
 
 ## Principle 6: Use Color to Highlight
 
@@ -266,24 +312,63 @@ Separate panels on a common scale often make each series readable. The drop in S
 
 Color draws the eye. Use it for the comparison that matters and leave the rest gray.
 
-## Principle 7: State the Finding in the Title
+# Tips &amp; Tricks
+
+## Tip-trick 1: Label Directly
+
+![](images/fundamentals/principle-direct-labels.png){fig-align="center" height="400"}
+
+Labels next to the data remove the need to match colors against a legend. It's a pain to do though, so save it for shoe ponies.
+
+## Tip-trick 2: State the Finding in the Title
 
 ![](images/fundamentals/principle-title.png){fig-align="center" height="400"}
 
-A title that states the result tells the reader what to look for. Exploratory figures can keep topic titles.
+- A title that states the result tells the reader what to look for
+- You can use subtitles and captions to convey necessary information about measurement, units, etc.
+ - This well for presentations and reports. Journals may want a more descriptive title.
 
-## A Note on Finding Titles
+## Tip-trick 3: Use a Reusable Theme
 
-Finding titles work best in talks, posters, reports, and public communication.
+A theme is a function that holds your styling boilerplate: fonts, sizes, gridlines, and colors. Write it once and add it to any plot.
 
-They are often a poor fit for manuscripts:
+```r
+theme_jhu <- function() {
+  theme_minimal(base_family = "Tahoma") +
+    theme(
+      plot.title = element_text(family = "Georgia", size = 18, face = "bold"),
+      axis.title = element_text(size = 11, face = "bold"),
+      panel.grid.minor = element_blank()
+    )
+}
 
-- Most journals do not want a title inside the figure. The result goes in the caption.
-- Reviewers may read a declarative title as overclaiming.
+ggplot(countries, aes(x = income, y = infant_mortality)) +
+  geom_point() +
+  theme_jhu()
+```
 
-. . .
+A good rule of thumb is to extract a function the third time you repeat the same code.
 
-The title should match the strength of the evidence. Write "is associated with" when the design does not support "causes."
+## Tip-trick 3: Use a Reusable Theme
+
+![](images/fundamentals/tip-theme.png){fig-align="center" height="400"}
+
+The data and geoms are the same. Only the theme changes, so every figure in a paper or talk can share one look. The figures in this presentation use `theme_jhu()`, which follows the [Johns Hopkins brand colors](https://brand.jhu.edu/visual-identity/colors/).
+
+## Tip-trick 4: Share Your Slides with GitHub Pages
+
+Quarto renders these slides to a single, self-contained HTML file. GitHub Pages can host that file for free from a public repository.
+
+```bash
+quarto render 2026-10-07-fundamentals-data-visualization.qmd
+mkdir -p docs
+cp 2026-10-07-fundamentals-data-visualization.html docs/index.html
+```
+
+- Commit `docs/index.html` and push to GitHub.
+- In the repository's **Settings → Pages**, publish from the `main` branch and the `/docs` folder.
+- The slides are then at `https://<username>.github.io/<repository>/`.
+- Publishing from a private repository requires a paid GitHub plan, and the site is still public.
 
 # Examples
 
@@ -309,33 +394,6 @@ The title should match the strength of the evidence. Write "is associated with" 
 
 Each example below starts with the question it answers.
 
-## ggplot2
-
-::: {.columns}
-::: {.column width="30%"}
-![](images/shared/ggplot2.png){fig-align="center" height="300"}
-:::
-
-::: {.column width="70%"}
-- An R package for making figures from data
-- Based on the grammar of graphics (Wilkinson, 2005) and written by Hadley Wickham
-- A figure is built from layers, added one at a time with `+`
-- Every figure in this talk was made with ggplot2
-:::
-:::
-
-## The Grammar of Graphics
-
-`ggplot2` builds figures from components:
-
-| Component | Meaning | Example |
-|---|---|---|
-| **Data** | The table you plot | One row per survey participant |
-| **Aesthetics** | Mapping of variables to visual properties | x = age group, y = blood pressure |
-| **Geoms** | The marks | Bars, boxes, violins, points, lines |
-| **Facets** | Small multiples | One panel per group |
-| **Scales and theme** | Axes, colors, and styling | Log scale; `theme_minimal()` |
-
 ## The Data
 
 **NHANES 2021–2023** is a national survey of U.S. adults and children with interviews, physical exams, and lab tests.
@@ -346,19 +404,6 @@ Each example below starts with the question it answers.
 ::: {.source}
 Simplified public-use files from CDC/NCHS. Survey weights are not applied, so these figures describe the sample and are not national estimates.
 :::
-
-## Workhorses: Distributions
-
-For continuous variables, we usually describe:
-
-- **Center:** what is typical (mean, median)?
-- **Spread:** how much variation is there (range, IQR, standard deviation)?
-- **Shape:** skew, tails, gaps, peaks, heaping, and multiple modes
-- **Unusual values:** what stands out?
-
-. . .
-
-Summary statistics compress these into a few numbers. Plots show what the summaries hide. The next three workhorses are the standard tools for this job.
 
 ## Histograms
 
@@ -375,9 +420,8 @@ ggplot(adult_bp, aes(x = systolic_mean)) +
   geom_histogram(binwidth = 5)
 ```
 
-![](images/fundamentals/histogram.png){fig-align="center" height="350"}
+![](images/fundamentals/histogram.png){fig-align="center" height="600"}
 
-The distribution is centered a little above 115 mmHg and has a long right tail of high readings.
 
 ## Histogram: Bin Width
 
@@ -407,7 +451,6 @@ ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
 
 ![](images/fundamentals/boxplot.png){fig-align="center" height="350"}
 
-Adult medians are similar, and children's median is lower. Every group has a long upper tail, and one person reports over 10,000 kcal per day.
 
 ## Box Plot With the Data
 
@@ -417,8 +460,6 @@ Adult medians are similar, and children's median is lower. Every group has a lon
 ```
 
 ![](images/fundamentals/boxplot-points.png){fig-align="center" height="350"}
-
-A box plot does not show how many observations are in each group. The points show that there are far fewer adults 80 and older.
 
 ## Violin Plots
 
@@ -437,8 +478,6 @@ ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
 
 ![](images/fundamentals/violin.png){fig-align="center" height="350"}
 
-Each group's values pile up between about 1,000 and 3,000 kcal, with a thin tail above.
-
 ## Violin Plot With a Box Plot
 
 ```r
@@ -447,8 +486,6 @@ Each group's values pile up between about 1,000 and 3,000 kcal, with a thin tail
 ```
 
 ![](images/fundamentals/violin-boxplot.png){fig-align="center" height="350"}
-
-The violin shows the shape. The box plot layer adds the median and the middle 50% back.
 
 ## Histograms, Box Plots, and Violin Plots
 
@@ -596,7 +633,7 @@ Before you call a figure finished, check:
 - **Variables:** are labels and units readable?
 - **Scale:** does the axis support the claim honestly?
 - **Color:** does color have a job? Is it used effectively?
-- **Accessibility:** is the plot readable for all people in all mediums?
+- **Accessibility:** is the plot readable for all people, including those with visual impairments? In all mediums?
 - **Destination:** does the format match where it is going?
 
 ## Further Reading

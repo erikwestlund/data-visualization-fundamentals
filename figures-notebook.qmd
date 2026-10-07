@@ -89,27 +89,49 @@ bars <- ggplot(shares, aes(x = pct, y = reorder(drug, pct))) +
 save_figure(pie + bars, "principle-common-scale")
 ```
 
-## Principle 2: Start bars at zero
+## Principle 2: Pick the right chart for your data
+
+Bars encode values as length, so they start at zero. A truncated axis makes
+small differences look large. Group means are better shown as dots. A dot
+encodes its value by position, so the axis can zoom in on the range where the
+means differ, and intervals fit naturally.
 
 ```{r}
-#| label: principle-honest-axis
-rates <- tibble(group = c("Clinic A", "Clinic B"), rate = c(10.4, 11.1))
+#| label: principle-right-chart
+bp_means <- nhanes |>
+  filter(age_years >= 18, !is.na(systolic_mean)) |>
+  group_by(age_group) |>
+  summarize(
+    n = n(),
+    mean = mean(systolic_mean),
+    se = sd(systolic_mean) / sqrt(n),
+    lower = mean - 1.96 * se,
+    upper = mean + 1.96 * se
+  ) |>
+  # Youngest group at the top
+  mutate(age_group = factor(age_group, levels = rev(sort(unique(age_group)))))
 
-truncated <- ggplot(rates, aes(x = group, y = rate)) +
+mean_plot <- function(title) {
+  ggplot(bp_means, aes(x = mean, y = age_group)) +
+    labs(title = title, x = "Mean systolic BP (mmHg)", y = "Age group") +
+    theme_jhu() +
+    theme(plot.title = element_text(size = 14))
+}
+
+truncated_bars <- mean_plot("Bars, axis starts at 105") +
   geom_col(fill = jhu_colors$Purple, width = 0.6) +
-  coord_cartesian(ylim = c(10, 11.2)) +
-  labs(title = "Axis starts at 10: a big gap?", x = NULL,
-       y = "Readmissions per 100 discharges") +
-  theme_jhu()
+  coord_cartesian(xlim = c(105, 140)) +
+  scale_x_continuous(expand = c(0, 0))
 
-full <- ggplot(rates, aes(x = group, y = rate)) +
-  geom_col(fill = jhu_colors$HopkinsBlue, width = 0.6) +
-  scale_y_continuous(limits = c(0, 12), expand = c(0, 0)) +
-  labs(title = "Axis starts at 0: about the same", x = NULL,
-       y = "Readmissions per 100 discharges") +
-  theme_jhu()
+zero_bars <- mean_plot("Bars, axis starts at 0") +
+  geom_col(fill = jhu_colors$Gray2, width = 0.6) +
+  scale_x_continuous(limits = c(0, 150), expand = c(0, 0))
 
-save_figure(truncated + full, "principle-honest-axis")
+mean_dots <- mean_plot("Dots with 95% CIs") +
+  geom_pointrange(aes(xmin = lower, xmax = upper), color = jhu_colors$HopkinsBlue,
+                  size = 0.8, linewidth = 1)
+
+save_figure(truncated_bars + zero_bars + mean_dots, "principle-right-chart", width = 12)
 ```
 
 ## Principle 3: Order categories meaningfully
@@ -211,6 +233,52 @@ multiples <- ggplot(monthly, aes(x = month, y = rate)) +
 save_figure(tangled + multiples, "principle-small-multiples")
 ```
 
+## Principle 5: Use text annotations to highlight
+
+Kostecki-Dillon, Monette, and Wong's migraine diaries: 133 people recorded
+whether they had a headache each day. Day 0 is the start of treatment. As in
+the course module, days after day 50 are dropped.
+
+```{r}
+#| label: principle-annotation
+migraine <- data_read("data/migraine_headache_diary.csv")
+
+headache_days <- migraine |>
+  filter(!is.na(day), day <= 50, !is.na(headache_reported)) |>
+  group_by(day) |>
+  summarize(n = n(), pct = mean(headache_reported) * 100) |>
+  mutate(treated = day >= 0)
+
+period_means <- headache_days |>
+  group_by(treated) |>
+  summarize(start = min(day), end = max(day), mean = mean(pct))
+
+headache_plot <- function(title) {
+  ggplot(headache_days, aes(x = day, y = pct)) +
+    geom_line(color = jhu_colors$HopkinsBlue, linewidth = 0.8) +
+    geom_point(color = jhu_colors$HopkinsBlue, size = 1.4) +
+    scale_y_continuous(limits = c(0, 100), expand = c(0, 0)) +
+    labs(title = title, x = "Diary day", y = "Reported a headache (%)") +
+    theme_jhu()
+}
+
+plain <- headache_plot("No annotation")
+
+annotated <- headache_plot("With annotation") +
+  geom_vline(xintercept = 0, color = jhu_colors$Gray3, linetype = "dashed") +
+  annotate("text", x = 1, y = 96, label = "Treatment starts", hjust = 0,
+           size = 4.2, color = jhu_colors$Gray4) +
+  geom_segment(data = period_means,
+               aes(x = start, xend = end, y = mean, yend = mean),
+               inherit.aes = FALSE, color = jhu_colors$Purple, linewidth = 1) +
+  geom_text(data = period_means,
+            aes(x = (start + end) / 2, y = 22,
+                label = paste0("Average ", round(mean), "%")),
+            inherit.aes = FALSE, color = jhu_colors$Purple, fontface = "bold", size = 4.2)
+
+save_figure(plain + annotated, "principle-annotation")
+```
+
 ## Principle 6: Use color to highlight
 
 ```{r}
@@ -257,6 +325,33 @@ bleed_bars <- function(title) {
 
 save_figure(bleed_bars("GI bleed rate by drug") + bleed_bars("Drug B users bleed about twice as often"),
             "principle-title")
+```
+
+# Tips and tricks
+
+## Use a reusable theme
+
+The same plot with the ggplot2 default theme and with `theme_jhu()`, which
+lives in `functions/theme_jhu.R`. Only the styling changes.
+
+```{r}
+#| label: tip-theme
+theme_example <- countries |>
+  filter(!is.na(infant_mortality_per_1000), !is.na(income_usd_per_capita)) |>
+  ggplot(aes(x = income_usd_per_capita, y = infant_mortality_per_1000)) +
+  geom_point(alpha = 0.75, size = 2) +
+  scale_x_log10(labels = scales::label_dollar(accuracy = 1)) +
+  labs(
+    title = "Income and infant mortality",
+    x = "Income per person",
+    y = "Infant deaths per 1,000 births"
+  )
+
+save_figure(
+  (theme_example + theme_gray() + labs(subtitle = "ggplot2 default")) +
+    (theme_example + theme_jhu() + labs(subtitle = "+ theme_jhu()")),
+  "tip-theme"
+)
 ```
 
 # Workhorses
