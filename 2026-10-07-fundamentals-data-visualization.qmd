@@ -94,9 +94,12 @@ No programming background is assumed. The examples use R's `ggplot2`, but the id
 
 ## In Summary
 
-- We aim for high information, easy to understand, and visually appealing graphics
-- We also aim to be honest and scientifically accurate; data visualizations are only as good as the science that created the data
+We aim:
 
+- For information dense, easy to understand, and visually appealing graphics
+- To be honest and scientifically accurate
+
+Data visualizations are only as good as the science that created the data.
 
 # Exploratory and Explanatory Figures
 
@@ -194,7 +197,7 @@ The army set out with about 422,000 men and return with 10,000.
 
 The computer can do what the hand can do. Amit Amola recreated this visualization using Python's `matplotlib` library and Minard's data:
 
-![](images/shared/napoleons-march-data.webp){fig-align="center" height="350"}
+![](images/shared/napoleons-march-data.webp){fig-align="center" height="600"}
 
 ::: {.source}
 [View the full tutorial](https://amitamola.medium.com/minards-chart-using-matplotlib-in-python-fbe8865cad78)
@@ -216,6 +219,8 @@ Tufte's examples are extraordinary, but most of our work is more routine. Tufte 
 - Use words, numbers, and drawing together.
 - Show enough complexity to be useful.
 - Avoid decoration that does not help the argument.
+
+# Visualization In Practice
 
 ## Visualization As An Analytic Tool
 
@@ -274,7 +279,7 @@ The most powerful visualization library that exists is `ggplot2`. It is so good 
 
 ## Principle 1: Use Position On a Common Scale
 
-![](images/fundamentals/principle-common-scale.png){fig-align="center" height="400"}
+![](images/fundamentals/principle-common-scale.png){fig-align="center" height="600"}
 
 People judge **position along a common scale** more accurately than angle, area, or color.
 
@@ -286,19 +291,19 @@ Bars encode values as **length**, so the axis should typically start at 0. A tru
 
 ## Principle 3: Order Categories Meaningfully
 
-![](images/fundamentals/principle-order.png){fig-align="center" height="400"}
+![](images/fundamentals/principle-order.png){fig-align="center" height="600"}
 
 Sort categories by value unless they have a natural order, such as age groups or calendar years.
 
 ## Principle 4: Facet By Small Multiples
 
-![](images/fundamentals/principle-small-multiples.png){fig-align="center" height="400"}
+![](images/fundamentals/principle-small-multiples.png){fig-align="center" height="600"}
 
 Separate panels on a common scale often make each series readable. The drop in Site E is easier to see in its own panel.
 
 ## Principle 5: Use Text Annotations to Highlight
 
-![](images/fundamentals/principle-annotation.png){fig-align="center" height="350"}
+![](images/fundamentals/principle-annotation.png){fig-align="center" height="600"}
 
 A short note tells the reader where to look. Here the annotations mark when treatment started and show that headache days barely changed (64% before, 63% after).
 
@@ -308,7 +313,7 @@ Migraine diaries from 133 people (Kostecki-Dillon, Monette, and Wong).
 
 ## Principle 6: Use Color to Highlight
 
-![](images/fundamentals/principle-highlight.png){fig-align="center" height="400"}
+![](images/fundamentals/principle-highlight.png){fig-align="center" height="600"}
 
 Color draws the eye. Use it for the comparison that matters and leave the rest gray.
 
@@ -316,13 +321,13 @@ Color draws the eye. Use it for the comparison that matters and leave the rest g
 
 ## Tip-trick 1: Label Directly
 
-![](images/fundamentals/principle-direct-labels.png){fig-align="center" height="400"}
+![](images/fundamentals/principle-direct-labels.png){fig-align="center" height="600"}
 
 Labels next to the data remove the need to match colors against a legend. It's a pain to do though, so save it for shoe ponies.
 
 ## Tip-trick 2: State the Finding in the Title
 
-![](images/fundamentals/principle-title.png){fig-align="center" height="400"}
+![](images/fundamentals/principle-title.png){fig-align="center" height="600"}
 
 - A title that states the result tells the reader what to look for
 - You can use subtitles and captions to convey necessary information about measurement, units, etc.
@@ -349,15 +354,16 @@ ggplot(countries, aes(x = income, y = infant_mortality)) +
 
 A good rule of thumb is to extract a function the third time you repeat the same code.
 
-## Tip-trick 3: Use a Reusable Theme
+## Reusable themes in practice
 
-![](images/fundamentals/tip-theme.png){fig-align="center" height="400"}
+![](images/fundamentals/tip-theme.png){fig-align="center" height="600"}
 
 The data and geoms are the same. Only the theme changes, so every figure in a paper or talk can share one look. The figures in this presentation use `theme_jhu()`, which follows the [Johns Hopkins brand colors](https://brand.jhu.edu/visual-identity/colors/).
 
-## Tip-trick 4: Share Your Slides with GitHub Pages
+## Tip-trick 4: Use A Scientific Notebook System
 
-Quarto renders these slides to a single, self-contained HTML file. GitHub Pages can host that file for free from a public repository.
+- I use Quarto; many prefer Jupyter. Notebooks let you combine code, text, and scientific artifacts.
+- For example, Quarto renders these slides to a single, self-contained HTML file. GitHub Pages can host that file for free from a public repository.
 
 ```bash
 quarto render 2026-10-07-fundamentals-data-visualization.qmd
@@ -368,7 +374,6 @@ cp 2026-10-07-fundamentals-data-visualization.html docs/index.html
 - Commit `docs/index.html` and push to GitHub.
 - In the repository's **Settings → Pages**, publish from the `main` branch and the `/docs` folder.
 - The slides are then at `https://<username>.github.io/<repository>/`.
-- Publishing from a private repository requires a paid GitHub plan, and the site is still public.
 
 # Examples
 
@@ -425,7 +430,7 @@ ggplot(adult_bp, aes(x = systolic_mean)) +
 
 ## Histogram: Bin Width
 
-![](images/fundamentals/histogram-binwidth.png){fig-align="center" height="400"}
+![](images/fundamentals/histogram-binwidth.png){fig-align="center" height="600"}
 
 Small bins show more local detail, including the rounding in the readings. Large bins smooth over the shape. Neither is automatically correct, so try a few.
 
@@ -449,7 +454,7 @@ ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
   geom_boxplot()
 ```
 
-![](images/fundamentals/boxplot.png){fig-align="center" height="350"}
+![](images/fundamentals/boxplot.png){fig-align="center" height="600"}
 
 
 ## Box Plot With the Data
@@ -459,7 +464,7 @@ ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
   geom_boxplot(outlier.shape = NA, fill = NA)
 ```
 
-![](images/fundamentals/boxplot-points.png){fig-align="center" height="350"}
+![](images/fundamentals/boxplot-points.png){fig-align="center" height="600"}
 
 ## Violin Plots
 
@@ -476,7 +481,7 @@ ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
   geom_violin()
 ```
 
-![](images/fundamentals/violin.png){fig-align="center" height="350"}
+![](images/fundamentals/violin.png){fig-align="center" height="600"}
 
 ## Violin Plot With a Box Plot
 
@@ -485,7 +490,7 @@ ggplot(diet, aes(x = age_group, y = mean_daily_energy_kcal)) +
   geom_boxplot(width = 0.12, outlier.shape = NA)
 ```
 
-![](images/fundamentals/violin-boxplot.png){fig-align="center" height="350"}
+![](images/fundamentals/violin-boxplot.png){fig-align="center" height="600"}
 
 ## Histograms, Box Plots, and Violin Plots
 
@@ -529,7 +534,7 @@ ggplot(adult_bp, aes(x = age_group, y = systolic_mean)) +
 
 ## Blood Pressure by Age: Show Pony
 
-![](images/fundamentals/bp-show-pony.png){fig-align="center" height="400"}
+![](images/fundamentals/bp-show-pony.png){fig-align="center" height="600"}
 
 Added: the 130 mmHg stage 1 hypertension line, the share at or above it in each group, sample sizes, a finding title, and the data source.
 
@@ -555,7 +560,7 @@ ggplot(mental_health_long, aes(x = estimate, y = location, color = measure)) +
 
 ## Postpartum Depression and Anxiety: Show Pony
 
-![](images/fundamentals/prams-show-pony.png){fig-align="center" height="400"}
+![](images/fundamentals/prams-show-pony.png){fig-align="center" height="600"}
 
 Added: connecting lines, states sorted by the gap, labels in place of the legend, the gap as a number, and a caption noting that no confidence intervals are shown.
 
@@ -579,11 +584,11 @@ ggplot(infant, aes(x = income_usd_per_capita, y = infant_mortality_per_1000,
   geom_point()
 ```
 
-![](images/fundamentals/countries-workhorse.png){fig-align="center" height="350"}
+![](images/fundamentals/countries-workhorse.png){fig-align="center" height="600"}
 
 ## Income and Infant Mortality: Show Pony
 
-![](images/fundamentals/countries-show-pony.png){fig-align="center" height="400"}
+![](images/fundamentals/countries-show-pony.png){fig-align="center" height="600"}
 
 Added: a log income scale, a smoother for the overall trend, color for oil exporters only, a few labeled countries, and a finding title.
 
@@ -606,11 +611,11 @@ ggplot(flu_us, aes(x = season_start_year, y = estimate, color = age_group)) +
   geom_point()
 ```
 
-![](images/fundamentals/flu-workhorse.png){fig-align="center" height="350"}
+![](images/fundamentals/flu-workhorse.png){fig-align="center" height="600"}
 
 ## Flu Vaccination: Show Pony
 
-![](images/fundamentals/flu-show-pony.png){fig-align="center" height="400"}
+![](images/fundamentals/flu-show-pony.png){fig-align="center" height="600"}
 
 Added: one age group highlighted with the others in gray, direct labels, the peak value labeled, the pandemic period shaded, and a y axis starting at 0.
 
