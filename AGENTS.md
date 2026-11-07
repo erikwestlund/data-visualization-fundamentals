@@ -43,11 +43,10 @@ They are already loaded by scaffold(). Calling library() again wastes time and c
 **DO NOT** use `source()` to load functions from the functions/ directory.
 They are auto-loaded by scaffold(). Just call them directly.
 
-
 ## Installed Packages <!-- @framework:regenerate -->
 
 **Auto-attached** (loaded by scaffold): dplyr, ggplot2, tidyr, stringr, readr
-**Installed** (call library() when needed): lubridate, glue, here
+**Installed** (call library() when needed): lubridate, glue, here, ragg, ggrepel, patchwork
 
 Add packages with `package_add("name")` or `package_add("name", auto_attach = TRUE)`.
 
@@ -60,7 +59,6 @@ Add packages with `package_add("name")` or `package_add("name", auto_attach = TR
 |---------|-----------|
 | Data files | `data/` |
 | Output files | `outputs/` |
-
 
 ## Presentation Workflow
 
@@ -95,4 +93,3 @@ make_notebook("backup-slides", stub = "revealjs")
 
 *Add your project-specific notes, conventions, and documentation here.*
 *This section is never modified by `ai_regenerate_context()`.*
-

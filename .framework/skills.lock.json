@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "skills": {
+    "package:framework-workflow": {
+      "paths": [
+        ".claude/skills/framework-workflow"
+      ],
+      "variant": "r",
+      "hash": "7ceeaaeb4eeb2f43840aa5d6a6364de657b87aa3fd856e11be90c5d3220f99b0",
+      "origin": {
+        "skill_id": "framework:framework-workflow",
+        "hash": "7ceeaaeb4eeb2f43840aa5d6a6364de657b87aa3fd856e11be90c5d3220f99b0"
+      }
+    },
+    "package:framework-data": {
+      "paths": [
+        ".claude/skills/framework-data"
+      ],
+      "variant": "r",
+      "hash": "5d75134c768c265b175d51020069ac3fb5cac88ac2237ff4f2c338b30faa9bfd",
+      "origin": {
+        "skill_id": "framework:framework-data",
+        "hash": "5d75134c768c265b175d51020069ac3fb5cac88ac2237ff4f2c338b30faa9bfd"
+      }
+    },
+    "package:framework-packages": {
+      "paths": [
+        ".claude/skills/framework-packages"
+      ],
+      "variant": "r",
+      "hash": "dbc35b166c281ec86212fd83845759cd1ef047a79ac777d0f9b8a62ea74518af",
+      "origin": {
+        "skill_id": "framework:framework-packages",
+        "hash": "dbc35b166c281ec86212fd83845759cd1ef047a79ac777d0f9b8a62ea74518af"
+      }
+    },
+    "package:framework-outputs": {
+      "paths": [
+        ".claude/skills/framework-outputs"
+      ],
+      "variant": "r",
+      "hash": "4966fe03fa5de77f36cd09ac493786cf6496f006b233c0f976fd5e3205c0630d",
+      "origin": {
+        "skill_id": "framework:framework-outputs",
+        "hash": "4966fe03fa5de77f36cd09ac493786cf6496f006b233c0f976fd5e3205c0630d"
+      }
+    },
+    "package:ggplot2-exploring": {
+      "paths": [
+        ".claude/skills/ggplot2-exploring"
+      ],
+      "variant": "r",
+      "hash": "78ea878a329e23c69760b3ccbb0a0799a554c2c60893a0c69839c85e884332fd",
+      "origin": {
+        "skill_id": "framework:ggplot2-exploring",
+        "hash": "78ea878a329e23c69760b3ccbb0a0799a554c2c60893a0c69839c85e884332fd"
+      }
+    },
+    "package:ggplot2-publishing": {
+      "paths": [
+        ".claude/skills/ggplot2-publishing"
+      ],
+      "variant": "r",
+      "hash": "7c8919f9140abd7af2d46d24402754e60e5421d24d2b5bde3ad17995e1b9458a",
+      "origin": {
+        "skill_id": "framework:ggplot2-publishing",
+        "hash": "7c8919f9140abd7af2d46d24402754e60e5421d24d2b5bde3ad17995e1b9458a"
+      }
+    }
+  }
+}

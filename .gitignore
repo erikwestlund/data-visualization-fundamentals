@@ -129,3 +129,8 @@ ehthumbs.db
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Added by framework::upgrade()
+**/logs/**
+slurm-*.out
+.quarto_backups/

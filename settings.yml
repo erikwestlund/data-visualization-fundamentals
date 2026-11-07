@@ -94,3 +94,8 @@ default:
     default_storage_bucket: ~
     databases: {}
     storage_buckets: {}
+  tools:
+    quarto: true
+    renv: false
+  security:
+    sensitive: false
