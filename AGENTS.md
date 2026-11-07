@@ -58,7 +58,6 @@ Add packages with `package_add("name")` or `package_add("name", auto_attach = TR
 | Purpose | Directory |
 |---------|-----------|
 | Data files | `data/` |
-| Output files | `outputs/` |
 
 ## Presentation Workflow
 

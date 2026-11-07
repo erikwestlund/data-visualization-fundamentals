@@ -9,6 +9,8 @@ default:
   directories:
     presentation_source: 2026-10-07-fundamentals-data-visualization.qmd
     rendered_slides: '.'
+    data: data
+    functions: functions
   extra_directories: ~
   render_dirs: []
   quarto:
