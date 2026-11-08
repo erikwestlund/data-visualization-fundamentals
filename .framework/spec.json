@@ -92,8 +92,7 @@
     "ggplot_theme": "theme_minimal",
     "source_all_functions": true,
     "ide": "vscode",
-    "notebook_format": "quarto",
-    "positron": true
+    "notebook_format": "quarto"
   },
   "quarto": {
     "html": {
@@ -152,7 +151,6 @@
   },
   "source": {
     "origin": "r",
-    "upgraded_from": "framework before 2.0 (no spec.json)",
     "framework_version": "2.0.1"
   }
 }

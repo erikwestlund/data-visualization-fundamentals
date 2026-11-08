@@ -1,6 +1,9 @@
 ---
 name: framework-packages
 description: Use when adding, installing, or managing R packages in this Framework project - package_add() is required instead of install.packages(), and auto-attached packages must not be re-loaded with library().
+metadata:
+  title: Managing packages
+  summary: Add packages through Framework so the project records them.
 ---
 
 # Framework Package Management
@@ -12,7 +15,7 @@ Packages are declared in settings.yml and installed/attached by `scaffold()`.
 **ALWAYS use Framework's package management:**
 
 ```r
-# Add a CRAN package (installed on next scaffold)
+# Add a CRAN package (recorded in settings and installed now)
 package_add("janitor")
 
 # Add and auto-attach (loaded automatically by scaffold)
@@ -23,7 +26,13 @@ package_add("tidyverse/dplyr@main")
 
 # Pin a version
 package_add("dplyr@1.1.0")
+
+# Record without installing
+package_add("arrow", install = FALSE)
 ```
+
+`packages_list()` shows what the project declares, and `packages_install()`
+installs anything missing (for example after cloning on a new machine).
 
 **DO NOT** use `install.packages()` directly — it bypasses Framework's tracking
 and the package won't be recorded in settings.yml for reproducibility.
